@@ -1,0 +1,1612 @@
+fileFormatVersion: 2
+guid: d761f72a34ddbd0479d4135ccfecfde4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 889351324697309817
+    second: CategoryButton_0
+  - first:
+      213: -4789286695176775572
+    second: CategoryButton_1
+  - first:
+      213: 5912324016059088266
+    second: CategoryButton_2
+  - first:
+      213: -1075096246168349228
+    second: CategoryButton_3
+  - first:
+      213: -8399341104028119312
+    second: CategoryButton_4
+  - first:
+      213: 9173837541283822390
+    second: CategoryButton_5
+  - first:
+      213: -6139941415126670425
+    second: CategoryButton_6
+  - first:
+      213: -4056446574693485905
+    second: CategoryButton_7
+  - first:
+      213: 2864948627932798106
+    second: CategoryButton_8
+  - first:
+      213: -1117256712261825445
+    second: CategoryButton_9
+  - first:
+      213: 835452114602007082
+    second: CategoryButton_10
+  - first:
+      213: -3990156617314269689
+    second: CategoryButton_11
+  - first:
+      213: -1180065874036256856
+    second: CategoryButton_12
+  - first:
+      213: 6384949560764278719
+    second: CategoryButton_13
+  - first:
+      213: 7445713685785793578
+    second: CategoryButton_14
+  - first:
+      213: -6166464061495694279
+    second: CategoryButton_15
+  - first:
+      213: -8647652449321302520
+    second: CategoryButton_16
+  - first:
+      213: -7046120101179247230
+    second: CategoryButton_17
+  - first:
+      213: -5586679578555629472
+    second: CategoryButton_18
+  - first:
+      213: -5324969378487001970
+    second: CategoryButton_19
+  - first:
+      213: 7162972084834434399
+    second: CategoryButton_20
+  - first:
+      213: 1842250577799392851
+    second: CategoryButton_21
+  - first:
+      213: -2569838106812262189
+    second: CategoryButton_22
+  - first:
+      213: -6646995344030694833
+    second: CategoryButton_23
+  - first:
+      213: 5430661563971913166
+    second: CategoryButton_24
+  - first:
+      213: 358342662374782878
+    second: CategoryButton_25
+  - first:
+      213: -2341466662236027650
+    second: CategoryButton_26
+  - first:
+      213: -2498740998755625941
+    second: CategoryButton_27
+  - first:
+      213: 3754866889552919553
+    second: CategoryButton_28
+  - first:
+      213: -5008348879274678391
+    second: CategoryButton_29
+  - first:
+      213: -2603943352307285027
+    second: CategoryButton_30
+  - first:
+      213: -3190064860365623100
+    second: CategoryButton_31
+  - first:
+      213: 7772637723645044075
+    second: CategoryButton_32
+  - first:
+      213: 7821882264032581250
+    second: CategoryButton_33
+  - first:
+      213: 3842987599383236950
+    second: CategoryButton_34
+  - first:
+      213: 6088891754945891984
+    second: CategoryButton_35
+  - first:
+      213: -4259698492559236007
+    second: CategoryButton_36
+  - first:
+      213: 5727884351610658703
+    second: CategoryButton_37
+  - first:
+      213: -3236669456068430275
+    second: CategoryButton_38
+  - first:
+      213: -7320321083799679752
+    second: CategoryButton_39
+  - first:
+      213: -7751748957356721760
+    second: CategoryButton_40
+  - first:
+      213: 3032629499346032172
+    second: CategoryButton_41
+  - first:
+      213: 1312168557945453469
+    second: CategoryButton_42
+  - first:
+      213: 7223175908086781297
+    second: CategoryButton_43
+  - first:
+      213: -7171216235474066735
+    second: CategoryButton_44
+  - first:
+      213: -9015224447654764884
+    second: CategoryButton_45
+  - first:
+      213: 8930117906286689810
+    second: CategoryButton_46
+  - first:
+      213: 3761409772275579697
+    second: CategoryButton_47
+  - first:
+      213: 7008267352325969446
+    second: CategoryButton_48
+  - first:
+      213: 2737943348342572980
+    second: CategoryButton_49
+  - first:
+      213: 3196719478543248553
+    second: CategoryButton_50
+  - first:
+      213: -8315255251757404407
+    second: CategoryButton_51
+  - first:
+      213: -2120697940298782446
+    second: CategoryButton_52
+  - first:
+      213: 3735100844267339512
+    second: CategoryButton_53
+  - first:
+      213: 5576429088270514721
+    second: CategoryButton_54
+  - first:
+      213: 6159445880405967056
+    second: CategoryButton_55
+  - first:
+      213: 6957894698076021022
+    second: CategoryButton_56
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CategoryButton_0
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 700
+        width: 128
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9723b1d515c975c00800000000000000
+      internalID: 889351324697309817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CategoryButton_1
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 697
+        width: 124
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c68db7e1029098db0800000000000000
+      internalID: -4789286695176775572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CategoryButton_2
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 703
+        width: 117
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8d76362e5bcc0250800000000000000
+      internalID: 5912324016059088266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CategoryButton_3
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 788
+        width: 58
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d597c309ad7411f0800000000000000
+      internalID: -1075096246168349228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CategoryButton_4
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 701
+        width: 118
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fe011b74cb8f6b80800000000000000
+      internalID: -8399341104028119312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CategoryButton_5
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 747
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63b7d5383a4005f70800000000000000
+      internalID: 9173837541283822390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CategoryButton_6
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 709
+        width: 110
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a36aa150db8acaa0800000000000000
+      internalID: -6139941415126670425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CategoryButton_7
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 760
+        width: 82
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa27b01155b94b7c0800000000000000
+      internalID: -4056446574693485905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CategoryButton_8
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 534
+        width: 115
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9c5da3199752c720800000000000000
+      internalID: 2864948627932798106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CategoryButton_9
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 533
+        width: 115
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5c86be80f4be70f0800000000000000
+      internalID: -1117256712261825445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CategoryButton_10
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 545
+        width: 108
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2a93b5954f189b00800000000000000
+      internalID: 835452114602007082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CategoryButton_11
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 643
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7060fc282bd10a8c0800000000000000
+      internalID: -3990156617314269689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CategoryButton_12
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 549
+        width: 102
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8af028ef6509f9fe0800000000000000
+      internalID: -1180065874036256856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CategoryButton_13
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 532
+        width: 124
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb7242eebc5eb9850800000000000000
+      internalID: 6384949560764278719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CategoryButton_14
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 601
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a24d68ce52d745760800000000000000
+      internalID: 7445713685785793578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CategoryButton_15
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 602
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93c265e7b915c6aa0800000000000000
+      internalID: -6166464061495694279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CategoryButton_16
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 603
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 806ca212aed5df780800000000000000
+      internalID: -8647652449321302520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CategoryButton_17
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 600
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 285b8749917273e90800000000000000
+      internalID: -7046120101179247230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CategoryButton_18
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 585
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0604346d5802872b0800000000000000
+      internalID: -5586679578555629472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CategoryButton_19
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 584
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8c137b2098e916b0800000000000000
+      internalID: -5324969378487001970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CategoryButton_20
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 578
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5d789cf82df76360800000000000000
+      internalID: 7162972084834434399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CategoryButton_21
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 559
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35eadfcc32df09910800000000000000
+      internalID: 1842250577799392851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CategoryButton_22
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 538
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d851318bd9165cd0800000000000000
+      internalID: -2569838106812262189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CategoryButton_23
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 539
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f42006fa3f021c3a0800000000000000
+      internalID: -6646995344030694833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CategoryButton_24
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 543
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec5c9e76be59d5b40800000000000000
+      internalID: 5430661563971913166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CategoryButton_25
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 370
+        width: 124
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9777bab0c619f400800000000000000
+      internalID: 358342662374782878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CategoryButton_26
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 458
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef48000f970718fd0800000000000000
+      internalID: -2341466662236027650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CategoryButton_27
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 473
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b24577fec40b25dd0800000000000000
+      internalID: -2498740998755625941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CategoryButton_28
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 360
+        width: 134
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10c7daaba87fb1430800000000000000
+      internalID: 3754866889552919553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CategoryButton_29
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 463
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9876b9bca35ce7ab0800000000000000
+      internalID: -5008348879274678391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CategoryButton_30
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 479
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd30c7e315fecdbd0800000000000000
+      internalID: -2603943352307285027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CategoryButton_31
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 479
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c0737349ec9ab3d0800000000000000
+      internalID: -3190064860365623100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CategoryButton_32
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 464
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b65e9a514d4fddb60800000000000000
+      internalID: 7772637723645044075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CategoryButton_33
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 372
+        width: 124
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 286179e1a78ec8c60800000000000000
+      internalID: 7821882264032581250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CategoryButton_34
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 446
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65118715cd8055530800000000000000
+      internalID: 3842987599383236950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CategoryButton_35
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 452
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09eca517ac6108450800000000000000
+      internalID: 6088891754945891984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CategoryButton_36
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 463
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9546db43ac282e4c0800000000000000
+      internalID: -4259698492559236007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CategoryButton_37
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 429
+        width: 45
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8f954c58788d7f40800000000000000
+      internalID: 5727884351610658703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CategoryButton_38
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 381
+        width: 119
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d363faf374a0513d0800000000000000
+      internalID: -3236669456068430275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CategoryButton_39
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 427
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fc415e42cef86a90800000000000000
+      internalID: -7320321083799679752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CategoryButton_40
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 447
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a97fb0d4614c6490800000000000000
+      internalID: -7751748957356721760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CategoryButton_41
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 447
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2614eb4670161a20800000000000000
+      internalID: 3032629499346032172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CategoryButton_42
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 419
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9b76cde952c53210800000000000000
+      internalID: 1312168557945453469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CategoryButton_43
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 415
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1751ca7e730ed3460800000000000000
+      internalID: 7223175908086781297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CategoryButton_44
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 418
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d2ed0d14d8ba7c90800000000000000
+      internalID: -7171216235474066735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CategoryButton_45
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 425
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caede1b212d73e280800000000000000
+      internalID: -9015224447654764884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CategoryButton_46
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 375
+        width: 118
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21eb2960ce62eeb70800000000000000
+      internalID: 8930117906286689810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CategoryButton_47
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 191
+        width: 135
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13b3b235246333430800000000000000
+      internalID: 3761409772275579697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CategoryButton_48
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 197
+        width: 124
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6265b5a860e524160800000000000000
+      internalID: 7008267352325969446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CategoryButton_49
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 223
+        width: 129
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b74a1518f02ff520800000000000000
+      internalID: 2737943348342572980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CategoryButton_50
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 195
+        width: 118
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ac6425cd670d5c20800000000000000
+      internalID: 3196719478543248553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CategoryButton_51
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 201
+        width: 130
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90f6c4697674a9c80800000000000000
+      internalID: -8315255251757404407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CategoryButton_52
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 202
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 219a6909574c192e0800000000000000
+      internalID: -2120697940298782446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CategoryButton_53
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 202
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fef0dead6eb5d330800000000000000
+      internalID: 3735100844267339512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CategoryButton_54
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 201
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12af489e5b4736d40800000000000000
+      internalID: 5576429088270514721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CategoryButton_55
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 201
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d047d2e46fba7550800000000000000
+      internalID: 6159445880405967056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CategoryButton_56
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 201
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1125670d586f8060800000000000000
+      internalID: 6957894698076021022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      CategoryButton_0: 889351324697309817
+      CategoryButton_1: -4789286695176775572
+      CategoryButton_10: 835452114602007082
+      CategoryButton_11: -3990156617314269689
+      CategoryButton_12: -1180065874036256856
+      CategoryButton_13: 6384949560764278719
+      CategoryButton_14: 7445713685785793578
+      CategoryButton_15: -6166464061495694279
+      CategoryButton_16: -8647652449321302520
+      CategoryButton_17: -7046120101179247230
+      CategoryButton_18: -5586679578555629472
+      CategoryButton_19: -5324969378487001970
+      CategoryButton_2: 5912324016059088266
+      CategoryButton_20: 7162972084834434399
+      CategoryButton_21: 1842250577799392851
+      CategoryButton_22: -2569838106812262189
+      CategoryButton_23: -6646995344030694833
+      CategoryButton_24: 5430661563971913166
+      CategoryButton_25: 358342662374782878
+      CategoryButton_26: -2341466662236027650
+      CategoryButton_27: -2498740998755625941
+      CategoryButton_28: 3754866889552919553
+      CategoryButton_29: -5008348879274678391
+      CategoryButton_3: -1075096246168349228
+      CategoryButton_30: -2603943352307285027
+      CategoryButton_31: -3190064860365623100
+      CategoryButton_32: 7772637723645044075
+      CategoryButton_33: 7821882264032581250
+      CategoryButton_34: 3842987599383236950
+      CategoryButton_35: 6088891754945891984
+      CategoryButton_36: -4259698492559236007
+      CategoryButton_37: 5727884351610658703
+      CategoryButton_38: -3236669456068430275
+      CategoryButton_39: -7320321083799679752
+      CategoryButton_4: -8399341104028119312
+      CategoryButton_40: -7751748957356721760
+      CategoryButton_41: 3032629499346032172
+      CategoryButton_42: 1312168557945453469
+      CategoryButton_43: 7223175908086781297
+      CategoryButton_44: -7171216235474066735
+      CategoryButton_45: -9015224447654764884
+      CategoryButton_46: 8930117906286689810
+      CategoryButton_47: 3761409772275579697
+      CategoryButton_48: 7008267352325969446
+      CategoryButton_49: 2737943348342572980
+      CategoryButton_5: 9173837541283822390
+      CategoryButton_50: 3196719478543248553
+      CategoryButton_51: -8315255251757404407
+      CategoryButton_52: -2120697940298782446
+      CategoryButton_53: 3735100844267339512
+      CategoryButton_54: 5576429088270514721
+      CategoryButton_55: 6159445880405967056
+      CategoryButton_56: 6957894698076021022
+      CategoryButton_6: -6139941415126670425
+      CategoryButton_7: -4056446574693485905
+      CategoryButton_8: 2864948627932798106
+      CategoryButton_9: -1117256712261825445
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

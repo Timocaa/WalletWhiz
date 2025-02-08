@@ -1,0 +1,1 @@
+C:\Users\Thomas\Videos\Projets_Unity\BudgetApp\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\cxx\RelWithDebInfo\2g5w1v31\obj\arm64-v8a
