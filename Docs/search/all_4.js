@@ -1,11 +1,22 @@
 var searchData=
 [
-  ['generalpanelmanager_0',['GeneralPanelManager',['../class_general_panel_manager.html',1,'']]],
-  ['generalpanelmanager_2ecs_1',['GeneralPanelManager.cs',['../_general_panel_manager_8cs.html',1,'']]],
-  ['getexpenseamount_2',['GetExpenseAmount',['../class_graph_display_manager.html#a5f8b7af41e5b6a8f39e18537969c2a3f',1,'GraphDisplayManager']]],
-  ['getincomeamount_3',['GetIncomeAmount',['../class_graph_display_manager.html#ab3d03c5fd75790bdc04cf88928cdc2c5',1,'GraphDisplayManager']]],
-  ['getrehearsalstrades_4',['GetRehearsalsTrades',['../class_database_manager.html#a79310342c67f324dd3e74134abd732cd',1,'DatabaseManager']]],
-  ['gettransactions_5',['GetTransactions',['../class_database_manager.html#adc680104fb05a5639a80429e7df0e8d6',1,'DatabaseManager']]],
-  ['graphdisplaymanager_6',['GraphDisplayManager',['../class_graph_display_manager.html',1,'']]],
-  ['graphdisplaymanager_2ecs_7',['GraphDisplayManager.cs',['../_graph_display_manager_8cs.html',1,'']]]
+  ['databasemanager_0',['DatabaseManager',['../class_database_manager.html',1,'']]],
+  ['databasemanager_1',['databaseManager',['../class_home_manager.html#a099ca9214e6f5eea3397d8c22f1c692c',1,'HomeManager.databaseManager'],['../class_stats_manager.html#a023dfc39923329f3198acb3bb9ff048c',1,'StatsManager.databaseManager'],['../class_trading_list_manager.html#a3306b065244036ddb443f849057b340e',1,'TradingListManager.databaseManager'],['../class_trading_manager.html#aef2e32fed08df8e60b11977a7f0dfef2',1,'TradingManager.databaseManager']]],
+  ['databasename_2',['databaseName',['../class_database_manager.html#ad7e880d17886e9dcf3a0eabc7dc71bd4',1,'DatabaseManager']]],
+  ['date_3',['date',['../class_transaction.html#a4cbbee36db392ed6f834b105ee6008d0',1,'Transaction']]],
+  ['dateformats_4',['DateFormats',['../class_database_manager.html#a8804879d17c615f93dd29bdc0577c9a2',1,'DatabaseManager.DateFormats'],['../class_home_manager.html#ad91cb116a5cf0592a258983c20ab8ea4',1,'HomeManager.DateFormats'],['../class_stats_manager.html#ac23d6f39a020a29aadf024d7d91cf158',1,'StatsManager.DateFormats'],['../class_trading_line_manager.html#a164e591f3e4eb9f9d3932a195701e24e',1,'TradingLineManager.DateFormats']]],
+  ['datetext_5',['dateText',['../class_trading_line_manager.html#a7626581224e56dee2a3d16d6f4e7c7ad',1,'TradingLineManager.dateText'],['../class_trading_manager.html#a37e32a3198dca4996ed3c4a003498ccf',1,'TradingManager.dateText']]],
+  ['deletebutton_6',['DeleteButton',['../class_category_line_manager.html#a4139695cbda904e33ab5e4425beef95f',1,'CategoryLineManager']]],
+  ['deletecategory_7',['DeleteCategory',['../class_category_line_manager.html#ac34423f91db1732b8982e25df7b925e2',1,'CategoryLineManager.DeleteCategory()'],['../class_category_list_manager.html#a2f63831641d5f1c213d80fd7a01e3723',1,'CategoryListManager.DeleteCategory()']]],
+  ['deleteline_8',['DeleteLine',['../class_trading_list_manager.html#a0a01307a311cdb2d795198e3fceac479',1,'TradingListManager']]],
+  ['describe_9',['describe',['../class_transaction.html#a92f49c6ce143f9f6c77563f6b1322d0a',1,'Transaction']]],
+  ['describetext_10',['describeText',['../class_trading_line_manager.html#a13d75a332426e9dbda83ab2c12f1bdd9',1,'TradingLineManager.describeText'],['../class_trading_manager.html#a07e0c445e6a7197bc758b0ee21a6f7f1',1,'TradingManager.describeText']]],
+  ['display_11',['Display',['../class_graph_display_manager.html#a1fd3487ed68b47890ead426a1407d352',1,'GraphDisplayManager']]],
+  ['displaybalances_12',['DisplayBalances',['../class_home_manager.html#a2045255ae9f76d5abe8a1dacaaf49a47',1,'HomeManager']]],
+  ['displaycategories_13',['DisplayCategories',['../class_category_manager.html#aec8f2bf600c735a3d99e2e4b6ef9e627',1,'CategoryManager']]],
+  ['displaygraph_14',['DisplayGraph',['../class_graph_display_manager.html#a5d9b5e5fdfd0f63e42a248c1332b9f7e',1,'GraphDisplayManager.DisplayGraph()'],['../class_stats_manager.html#aa956bd4961be818ccfddf4838f3a0c33',1,'StatsManager.DisplayGraph()']]],
+  ['displaylegendline_15',['DisplayLegendLine',['../class_graph_display_manager.html#a912e7150042301e2fc1d5ec2946f6dcd',1,'GraphDisplayManager']]],
+  ['displaylist_16',['DisplayList',['../class_trading_list_manager.html#a77a3cf7a97cde394a38247340c995c9d',1,'TradingListManager']]],
+  ['displayslices_17',['DisplaySlices',['../class_graph_display_manager.html#a1cd7c4e2ac6419231e9e718371e0ac63',1,'GraphDisplayManager']]],
+  ['duration_18',['duration',['../class_home_manager.html#a290c87c70a3a3a5efb020939a0217dc0',1,'HomeManager']]]
 ];

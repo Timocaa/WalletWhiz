@@ -1,7 +1,9 @@
 var searchData=
 [
-  ['getexpenseamount_0',['GetExpenseAmount',['../class_graph_display_manager.html#a5f8b7af41e5b6a8f39e18537969c2a3f',1,'GraphDisplayManager']]],
-  ['getincomeamount_1',['GetIncomeAmount',['../class_graph_display_manager.html#ab3d03c5fd75790bdc04cf88928cdc2c5',1,'GraphDisplayManager']]],
-  ['getrehearsalstrades_2',['GetRehearsalsTrades',['../class_database_manager.html#a79310342c67f324dd3e74134abd732cd',1,'DatabaseManager']]],
-  ['gettransactions_3',['GetTransactions',['../class_database_manager.html#adc680104fb05a5639a80429e7df0e8d6',1,'DatabaseManager']]]
+  ['fillamounttext_0',['FillAmountText',['../class_trading_line_manager.html#a5425a07959307cf0e90ebcded6d236ab',1,'TradingLineManager']]],
+  ['filldatetext_1',['FillDateText',['../class_trading_line_manager.html#ab373077bd1087dbb9336472f7f9a5319',1,'TradingLineManager']]],
+  ['findrehearsalstrades_2',['FindRehearsalsTrades',['../class_database_manager.html#a70e58cf90efa1eefffa77703b2a2612b',1,'DatabaseManager']]],
+  ['findtransactions_3',['FindTransactions',['../class_database_manager.html#a7592a01483b7bc4e24fdeb9a46cf8438',1,'DatabaseManager']]],
+  ['formisfull_4',['FormIsFull',['../class_trading_manager.html#aa1e8143de8b0cb0d51936f262096b953',1,'TradingManager']]],
+  ['frenchtranslatedtext_5',['FrenchTranslatedText',['../class_trading_line_manager.html#a1e3de9dcda0b3bae1082bd7332b0cb8b',1,'TradingLineManager']]]
 ];

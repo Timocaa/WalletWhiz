@@ -1,12 +1,8 @@
 var searchData=
 [
-  ['tradinglinemanager_0',['TradingLineManager',['../class_trading_line_manager.html',1,'']]],
-  ['tradinglinemanager_2ecs_1',['TradingLineManager.cs',['../_trading_line_manager_8cs.html',1,'']]],
-  ['tradinglistmanager_2',['TradingListManager',['../class_trading_list_manager.html',1,'']]],
-  ['tradinglistmanager_2ecs_3',['TradingListManager.cs',['../_trading_list_manager_8cs.html',1,'']]],
-  ['tradingmanager_4',['TradingManager',['../class_trading_manager.html',1,'']]],
-  ['tradingmanager_2ecs_5',['TradingManager.cs',['../_trading_manager_8cs.html',1,'']]],
-  ['transaction_6',['Transaction',['../class_transaction.html',1,'']]],
-  ['transaction_2ecs_7',['Transaction.cs',['../_transaction_8cs.html',1,'']]],
-  ['type_8',['type',['../class_transaction.html#a75345a80cefb7e5eb939bf7cac3b0237',1,'Transaction']]]
+  ['panels_0',['panels',['../class_general_panel_manager.html#ae6f766bdebb3b18a964b76c2f878e70f',1,'GeneralPanelManager']]],
+  ['periodicitydropdown_1',['periodicityDropdown',['../class_trading_manager.html#abaabb78da81c518d1d12488b660adf78',1,'TradingManager']]],
+  ['periodicitytext_2',['periodicityText',['../class_trading_line_manager.html#a5b796c0df40ea1688f508788e14e76b8',1,'TradingLineManager']]],
+  ['positivecolor_3',['positiveColor',['../class_home_manager.html#af7866fd8374b0de611a1c7307dc07dbc',1,'HomeManager.positiveColor'],['../class_stats_manager.html#a41d65f7231bb6d6ac26e6dedc4f7bf98',1,'StatsManager.positiveColor'],['../class_trading_line_manager.html#a82bf1dfbabcf26ab1eaaeba05a55a6da',1,'TradingLineManager.positiveColor']]],
+  ['previousbutton_4',['PreviousButton',['../class_trading_list_manager.html#a0fbd4d99219a7da8f68a2175b4c9a39b',1,'TradingListManager']]]
 ];

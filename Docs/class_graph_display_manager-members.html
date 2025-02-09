@@ -5,14 +5,12 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.13.2"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>My Project: Member List</title>
+<title>WalletWiz: Member List</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
 <script type="text/javascript" src="clipboard.js"></script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript" src="navtreedata.js"></script>
-<script type="text/javascript" src="navtree.js"></script>
 <script type="text/javascript" src="resize.js"></script>
 <script type="text/javascript" src="cookie.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
@@ -31,8 +29,9 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="Logo_192x192.png"/></td>
   <td id="projectalign">
-   <div id="projectname">My Project
+   <div id="projectname">WalletWiz<span id="projectnumber">&#160;V1.0</span>
    </div>
   </td>
     <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -63,23 +62,11 @@ var searchBox = new SearchBox("searchBox", "search/",'.html');
 $(function() { codefold.init(0); });
 /* @license-end */
 </script>
-</div><!-- top -->
-<div id="side-nav" class="ui-resizable side-nav-resizable">
-  <div id="nav-tree">
-    <div id="nav-tree-contents">
-      <div id="nav-sync" class="sync"></div>
-    </div>
-  </div>
-  <div id="splitbar" style="-moz-user-select:none;" 
-       class="ui-resizable-handle">
-  </div>
-</div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(function(){initNavTree('class_graph_display_manager.html',''); initResizable(true); });
+$(function(){ initResizable(false); });
 /* @license-end */
 </script>
-<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -101,6 +88,8 @@ $(function(){initNavTree('class_graph_display_manager.html',''); initResizable(t
 </div>
 </div>
 
+</div><!-- top -->
+<div id="doc-content">
 <div class="header">
   <div class="headertitle"><div class="title">GraphDisplayManager Member List</div></div>
 </div><!--header-->
@@ -108,17 +97,38 @@ $(function(){initNavTree('class_graph_display_manager.html',''); initResizable(t
 
 <p>This is the complete list of members for <a class="el" href="class_graph_display_manager.html">GraphDisplayManager</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="class_graph_display_manager.html#a5d9b5e5fdfd0f63e42a248c1332b9f7e">DisplayGraph</a>(List&lt; Transaction &gt; transactions, string category)</td><td class="entry"><a class="el" href="class_graph_display_manager.html">GraphDisplayManager</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="class_graph_display_manager.html#a5f8b7af41e5b6a8f39e18537969c2a3f">GetExpenseAmount</a>()</td><td class="entry"><a class="el" href="class_graph_display_manager.html">GraphDisplayManager</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="class_graph_display_manager.html#ab3d03c5fd75790bdc04cf88928cdc2c5">GetIncomeAmount</a>()</td><td class="entry"><a class="el" href="class_graph_display_manager.html">GraphDisplayManager</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="class_graph_display_manager.html#a77af2dc324de59cbe78926dc7ec78a26">ResetPanel</a>()</td><td class="entry"><a class="el" href="class_graph_display_manager.html">GraphDisplayManager</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_graph_display_manager.html#abb2306fadd9767c2ca6705d2a042e9fd">_categoryTradesList</a></td><td class="entry"><a class="el" href="class_graph_display_manager.html">GraphDisplayManager</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="class_graph_display_manager.html#ad3736def662fd2f5537791c941fbb86e">_expenseAmount</a></td><td class="entry"><a class="el" href="class_graph_display_manager.html">GraphDisplayManager</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_graph_display_manager.html#ad991b33bd7393e2229313b0f50e3c561">_incomeAmount</a></td><td class="entry"><a class="el" href="class_graph_display_manager.html">GraphDisplayManager</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="class_graph_display_manager.html#a38b469855559160fea7d92e50459b062">_legendLineObjects</a></td><td class="entry"><a class="el" href="class_graph_display_manager.html">GraphDisplayManager</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_graph_display_manager.html#ad66fd49f9a375149bd07621a35f09197">_sliceObjects</a></td><td class="entry"><a class="el" href="class_graph_display_manager.html">GraphDisplayManager</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="class_graph_display_manager.html#aad70cd7556ea8efcc0c7b59a3930612f">_subtotals</a></td><td class="entry"><a class="el" href="class_graph_display_manager.html">GraphDisplayManager</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_graph_display_manager.html#a669660720300d44e0fea4d5b21a7b889">_totalAmount</a></td><td class="entry"><a class="el" href="class_graph_display_manager.html">GraphDisplayManager</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="class_graph_display_manager.html#a2ec6be8a40cb996da126b0ff8ac1d080">CalculateAmounts</a>()</td><td class="entry"><a class="el" href="class_graph_display_manager.html">GraphDisplayManager</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_graph_display_manager.html#a1fd3487ed68b47890ead426a1407d352">Display</a>(List&lt; Transaction &gt; transactions, string category)</td><td class="entry"><a class="el" href="class_graph_display_manager.html">GraphDisplayManager</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="class_graph_display_manager.html#a5d9b5e5fdfd0f63e42a248c1332b9f7e">DisplayGraph</a>(List&lt; Transaction &gt; transactions, string category)</td><td class="entry"><a class="el" href="class_graph_display_manager.html">GraphDisplayManager</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_graph_display_manager.html#a912e7150042301e2fc1d5ec2946f6dcd">DisplayLegendLine</a>(string category)</td><td class="entry"><a class="el" href="class_graph_display_manager.html">GraphDisplayManager</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="class_graph_display_manager.html#a1cd7c4e2ac6419231e9e718371e0ac63">DisplaySlices</a>(string category)</td><td class="entry"><a class="el" href="class_graph_display_manager.html">GraphDisplayManager</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_graph_display_manager.html#a7ad466395afd60a7c34997d8173813ae">GetAllCategoryTrades</a>(List&lt; Transaction &gt; transactions)</td><td class="entry"><a class="el" href="class_graph_display_manager.html">GraphDisplayManager</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="class_graph_display_manager.html#ac03ca7715cdc92016f3703f7155a5700">GetCategoryTrade</a>(List&lt; Transaction &gt; transactions, string category)</td><td class="entry"><a class="el" href="class_graph_display_manager.html">GraphDisplayManager</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_graph_display_manager.html#a5f8b7af41e5b6a8f39e18537969c2a3f">GetExpenseAmount</a>()</td><td class="entry"><a class="el" href="class_graph_display_manager.html">GraphDisplayManager</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="class_graph_display_manager.html#ab3d03c5fd75790bdc04cf88928cdc2c5">GetIncomeAmount</a>()</td><td class="entry"><a class="el" href="class_graph_display_manager.html">GraphDisplayManager</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_graph_display_manager.html#a4d26d7872c0050a1f4ed80177d9e1e22">GetOneCategoryTrades</a>(List&lt; Transaction &gt; transactions, string category)</td><td class="entry"><a class="el" href="class_graph_display_manager.html">GraphDisplayManager</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="class_graph_display_manager.html#a729050a349bcccd3d4b9a76a9fb0c046">graphArea</a></td><td class="entry"><a class="el" href="class_graph_display_manager.html">GraphDisplayManager</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_graph_display_manager.html#aa10e07eb906c868aa2ff51837c19a58e">gridLayout</a></td><td class="entry"><a class="el" href="class_graph_display_manager.html">GraphDisplayManager</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="class_graph_display_manager.html#a38926aa8782659bce139ef9262ab7375">legendLine</a></td><td class="entry"><a class="el" href="class_graph_display_manager.html">GraphDisplayManager</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_graph_display_manager.html#a91196f31c28c4daed595e370ee311678">OnDisable</a>()</td><td class="entry"><a class="el" href="class_graph_display_manager.html">GraphDisplayManager</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="class_graph_display_manager.html#a547f054f8342bd12f8876f25deca163d">oneCategoryColors</a></td><td class="entry"><a class="el" href="class_graph_display_manager.html">GraphDisplayManager</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_graph_display_manager.html#a23b1e0fc988e3acec68e329285426f6e">OnEnable</a>()</td><td class="entry"><a class="el" href="class_graph_display_manager.html">GraphDisplayManager</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="class_graph_display_manager.html#a3dae0943741a237f71d4deb5a8725e1e">ResetData</a>()</td><td class="entry"><a class="el" href="class_graph_display_manager.html">GraphDisplayManager</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_graph_display_manager.html#a77af2dc324de59cbe78926dc7ec78a26">ResetPanel</a>()</td><td class="entry"><a class="el" href="class_graph_display_manager.html">GraphDisplayManager</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="class_graph_display_manager.html#a89875f6a053e0c99bc5392dd7e58a4fd">sliceColors</a></td><td class="entry"><a class="el" href="class_graph_display_manager.html">GraphDisplayManager</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_graph_display_manager.html#aec9c72bb0e116a7b60f64a0420ed19bf">slicePrefab</a></td><td class="entry"><a class="el" href="class_graph_display_manager.html">GraphDisplayManager</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
 </table></div><!-- contents -->
-</div><!-- doc-content -->
 <!-- start footer part -->
-<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
-  <ul>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
-  </ul>
-</div>
+<hr class="footer"/><address class="footer"><small>
+Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2
+</small></address>
+</div><!-- doc-content -->
 </body>
 </html>

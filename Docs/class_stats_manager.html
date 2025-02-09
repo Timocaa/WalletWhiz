@@ -5,14 +5,12 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.13.2"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>My Project: StatsManager Class Reference</title>
+<title>WalletWiz: StatsManager Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
 <script type="text/javascript" src="clipboard.js"></script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript" src="navtreedata.js"></script>
-<script type="text/javascript" src="navtree.js"></script>
 <script type="text/javascript" src="resize.js"></script>
 <script type="text/javascript" src="cookie.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
@@ -31,8 +29,9 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="Logo_192x192.png"/></td>
   <td id="projectalign">
-   <div id="projectname">My Project
+   <div id="projectname">WalletWiz<span id="projectnumber">&#160;V1.0</span>
    </div>
   </td>
     <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -63,23 +62,11 @@ var searchBox = new SearchBox("searchBox", "search/",'.html');
 $(function() { codefold.init(0); });
 /* @license-end */
 </script>
-</div><!-- top -->
-<div id="side-nav" class="ui-resizable side-nav-resizable">
-  <div id="nav-tree">
-    <div id="nav-tree-contents">
-      <div id="nav-sync" class="sync"></div>
-    </div>
-  </div>
-  <div id="splitbar" style="-moz-user-select:none;" 
-       class="ui-resizable-handle">
-  </div>
-</div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(function(){initNavTree('class_stats_manager.html',''); initResizable(true); });
+$(function(){ initResizable(false); });
 /* @license-end */
 </script>
-<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -101,9 +88,14 @@ $(function(){initNavTree('class_stats_manager.html',''); initResizable(true); })
 </div>
 </div>
 
+</div><!-- top -->
+<div id="doc-content">
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="class_stats_manager-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">StatsManager Class Reference</div></div>
 </div><!--header-->
@@ -111,26 +103,102 @@ $(function(){initNavTree('class_stats_manager.html',''); initResizable(true); })
 
 <p>Manages the statistics view by filtering transactions by date and category, computing totals, and displaying the data graphically.  
  <a href="#details">More...</a></p>
-<div class="dynheader">
-Inheritance diagram for StatsManager:</div>
-<div class="dyncontent">
- <div class="center">
-  <img src="class_stats_manager.png" alt=""/>
- </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a64dd6705381ccb24fb5cef0b82f95346" id="r_a64dd6705381ccb24fb5cef0b82f95346"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a64dd6705381ccb24fb5cef0b82f95346">ValidateButton</a> ()</td></tr>
 <tr class="memdesc:a64dd6705381ccb24fb5cef0b82f95346"><td class="mdescLeft">&#160;</td><td class="mdescRight">Validates the current settings and displays the graph with updated statistics.  <br /></td></tr>
 <tr class="separator:a64dd6705381ccb24fb5cef0b82f95346"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a418b9d0686f92396e7cdf2245b380515" id="r_a418b9d0686f92396e7cdf2245b380515"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a418b9d0686f92396e7cdf2245b380515">OnEnable</a> ()</td></tr>
+<tr class="memdesc:a418b9d0686f92396e7cdf2245b380515"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when the object becomes enabled and active. Initializes the statistics panel with default dates, resets amounts, and loads categories.  <br /></td></tr>
+<tr class="separator:a418b9d0686f92396e7cdf2245b380515"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af506b5e943d1b28fd4bed0a09a66fc08" id="r_af506b5e943d1b28fd4bed0a09a66fc08"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af506b5e943d1b28fd4bed0a09a66fc08">OnDisable</a> ()</td></tr>
+<tr class="memdesc:af506b5e943d1b28fd4bed0a09a66fc08"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when the object becomes disabled or inactive. Resets the statistics panel data.  <br /></td></tr>
+<tr class="separator:af506b5e943d1b28fd4bed0a09a66fc08"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6f7758e41a7c6cb85055b92a9b16073" id="r_ae6f7758e41a7c6cb85055b92a9b16073"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae6f7758e41a7c6cb85055b92a9b16073">InitCategories</a> ()</td></tr>
+<tr class="memdesc:ae6f7758e41a7c6cb85055b92a9b16073"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the category dropdown list with a default option and loaded categories.  <br /></td></tr>
+<tr class="separator:ae6f7758e41a7c6cb85055b92a9b16073"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac497ec71c0148f17a8b0f83018622d99" id="r_ac497ec71c0148f17a8b0f83018622d99"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_transaction.html">Transaction</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac497ec71c0148f17a8b0f83018622d99">GetExistingTrades</a> (DateTime startDate, DateTime endDate)</td></tr>
+<tr class="memdesc:ac497ec71c0148f17a8b0f83018622d99"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves transactions that exist between the given start and end dates.  <br /></td></tr>
+<tr class="separator:ac497ec71c0148f17a8b0f83018622d99"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac666dc4db6944804c6e731afff41fde8" id="r_ac666dc4db6944804c6e731afff41fde8"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_transaction.html">Transaction</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac666dc4db6944804c6e731afff41fde8">GetTradesWithProvisional</a> (DateTime endDate)</td></tr>
+<tr class="memdesc:ac666dc4db6944804c6e731afff41fde8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves transactions, including provisional recurring transactions, up to the specified end date.  <br /></td></tr>
+<tr class="separator:ac666dc4db6944804c6e731afff41fde8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a759038d4bef2a26e6d82404deb971f06" id="r_a759038d4bef2a26e6d82404deb971f06"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_transaction.html">Transaction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a759038d4bef2a26e6d82404deb971f06">GenerateTransaction</a> (<a class="el" href="class_transaction.html">Transaction</a> tradeToCopy, DateTime nextDate)</td></tr>
+<tr class="memdesc:a759038d4bef2a26e6d82404deb971f06"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates a provisional transaction based on a given transaction template and a specified new date.  <br /></td></tr>
+<tr class="separator:a759038d4bef2a26e6d82404deb971f06"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a080299df43673e800040c6ac85f2f5fc" id="r_a080299df43673e800040c6ac85f2f5fc"><td class="memItemLeft" align="right" valign="top">DateTime&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a080299df43673e800040c6ac85f2f5fc">GetNextDate</a> (DateTime date, string periodicity)</td></tr>
+<tr class="memdesc:a080299df43673e800040c6ac85f2f5fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates the next occurrence date based on the current date and the provided periodicity.  <br /></td></tr>
+<tr class="separator:a080299df43673e800040c6ac85f2f5fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30aded4de6ea87f8fd9f67e4162e81df" id="r_a30aded4de6ea87f8fd9f67e4162e81df"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_transaction.html">Transaction</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a30aded4de6ea87f8fd9f67e4162e81df">GetTransactionsDateToDate</a> (string startDate, string endDate)</td></tr>
+<tr class="memdesc:a30aded4de6ea87f8fd9f67e4162e81df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retrieves transactions between two dates given as strings. Determines whether to include provisional recurring transactions based on the end date.  <br /></td></tr>
+<tr class="separator:a30aded4de6ea87f8fd9f67e4162e81df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa956bd4961be818ccfddf4838f3a0c33" id="r_aa956bd4961be818ccfddf4838f3a0c33"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa956bd4961be818ccfddf4838f3a0c33">DisplayGraph</a> ()</td></tr>
+<tr class="memdesc:aa956bd4961be818ccfddf4838f3a0c33"><td class="mdescLeft">&#160;</td><td class="mdescRight">Displays the graph by resetting the graph panel, retrieving filtered transactions, and updating the amounts.  <br /></td></tr>
+<tr class="separator:aa956bd4961be818ccfddf4838f3a0c33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad11e98a4542b48cf59ac20922e64fe95" id="r_ad11e98a4542b48cf59ac20922e64fe95"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad11e98a4542b48cf59ac20922e64fe95">ResetData</a> ()</td></tr>
+<tr class="memdesc:ad11e98a4542b48cf59ac20922e64fe95"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resets the statistics panel data to its default state.  <br /></td></tr>
+<tr class="separator:ad11e98a4542b48cf59ac20922e64fe95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a41d65f7231bb6d6ac26e6dedc4f7bf98" id="r_a41d65f7231bb6d6ac26e6dedc4f7bf98"><td class="memItemLeft" align="right" valign="top">Color&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a41d65f7231bb6d6ac26e6dedc4f7bf98">positiveColor</a></td></tr>
+<tr class="memdesc:a41d65f7231bb6d6ac26e6dedc4f7bf98"><td class="mdescLeft">&#160;</td><td class="mdescRight">Color used to display positive amounts.  <br /></td></tr>
+<tr class="separator:a41d65f7231bb6d6ac26e6dedc4f7bf98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83b67aa5a029a317e0f148cb069e4a7d" id="r_a83b67aa5a029a317e0f148cb069e4a7d"><td class="memItemLeft" align="right" valign="top">Color&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a83b67aa5a029a317e0f148cb069e4a7d">negativeColor</a></td></tr>
+<tr class="memdesc:a83b67aa5a029a317e0f148cb069e4a7d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Color used to display negative amounts.  <br /></td></tr>
+<tr class="separator:a83b67aa5a029a317e0f148cb069e4a7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a968a12214dc8c31ddc17c57cabfdfb4f" id="r_a968a12214dc8c31ddc17c57cabfdfb4f"><td class="memItemLeft" align="right" valign="top">TextMeshProUGUI&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a968a12214dc8c31ddc17c57cabfdfb4f">startDateText</a></td></tr>
+<tr class="memdesc:a968a12214dc8c31ddc17c57cabfdfb4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Text element displaying the start date of the statistics period.  <br /></td></tr>
+<tr class="separator:a968a12214dc8c31ddc17c57cabfdfb4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a92ab5b71b8fdd33c1397605a1a56e8" id="r_a5a92ab5b71b8fdd33c1397605a1a56e8"><td class="memItemLeft" align="right" valign="top">TextMeshProUGUI&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5a92ab5b71b8fdd33c1397605a1a56e8">endDateText</a></td></tr>
+<tr class="memdesc:a5a92ab5b71b8fdd33c1397605a1a56e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Text element displaying the end date of the statistics period.  <br /></td></tr>
+<tr class="separator:a5a92ab5b71b8fdd33c1397605a1a56e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a08eade938b54083b26ac0837c2d90b6a" id="r_a08eade938b54083b26ac0837c2d90b6a"><td class="memItemLeft" align="right" valign="top">TMP_Dropdown&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a08eade938b54083b26ac0837c2d90b6a">categoryDropdown</a></td></tr>
+<tr class="memdesc:a08eade938b54083b26ac0837c2d90b6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dropdown for selecting a category to filter transactions.  <br /></td></tr>
+<tr class="separator:a08eade938b54083b26ac0837c2d90b6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad12084084e6bed636948adbe84fa5afb" id="r_ad12084084e6bed636948adbe84fa5afb"><td class="memItemLeft" align="right" valign="top">TextMeshProUGUI&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad12084084e6bed636948adbe84fa5afb">expenseAmountText</a></td></tr>
+<tr class="memdesc:ad12084084e6bed636948adbe84fa5afb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Text element displaying the total expense amount.  <br /></td></tr>
+<tr class="separator:ad12084084e6bed636948adbe84fa5afb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c6026ec66bebc699b57db032b073846" id="r_a4c6026ec66bebc699b57db032b073846"><td class="memItemLeft" align="right" valign="top">TextMeshProUGUI&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4c6026ec66bebc699b57db032b073846">incomeAmountText</a></td></tr>
+<tr class="memdesc:a4c6026ec66bebc699b57db032b073846"><td class="mdescLeft">&#160;</td><td class="mdescRight">Text element displaying the total income amount.  <br /></td></tr>
+<tr class="separator:a4c6026ec66bebc699b57db032b073846"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1026d1e08fe5c56c0714e340d53496a5" id="r_a1026d1e08fe5c56c0714e340d53496a5"><td class="memItemLeft" align="right" valign="top">TextMeshProUGUI&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1026d1e08fe5c56c0714e340d53496a5">balanceAmountText</a></td></tr>
+<tr class="memdesc:a1026d1e08fe5c56c0714e340d53496a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Text element displaying the overall balance (income minus expenses).  <br /></td></tr>
+<tr class="separator:a1026d1e08fe5c56c0714e340d53496a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a023dfc39923329f3198acb3bb9ff048c" id="r_a023dfc39923329f3198acb3bb9ff048c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_database_manager.html">DatabaseManager</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a023dfc39923329f3198acb3bb9ff048c">databaseManager</a></td></tr>
+<tr class="memdesc:a023dfc39923329f3198acb3bb9ff048c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reference to the <a class="el" href="class_database_manager.html" title="Manages the SQLite database used for storing transactions and recurring trades.">DatabaseManager</a> for accessing transaction data.  <br /></td></tr>
+<tr class="separator:a023dfc39923329f3198acb3bb9ff048c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a696510168c02a74e2a45fc34216b5f5d" id="r_a696510168c02a74e2a45fc34216b5f5d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_category_list_manager.html">CategoryListManager</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a696510168c02a74e2a45fc34216b5f5d">categoryListManager</a></td></tr>
+<tr class="memdesc:a696510168c02a74e2a45fc34216b5f5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reference to the <a class="el" href="class_category_list_manager.html" title="Manages the list of categories by loading, saving, adding, removing, and updating categories,...">CategoryListManager</a> for loading category data.  <br /></td></tr>
+<tr class="separator:a696510168c02a74e2a45fc34216b5f5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a572a1f4fefda3b47c16edb96c23fed37" id="r_a572a1f4fefda3b47c16edb96c23fed37"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_graph_display_manager.html">GraphDisplayManager</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a572a1f4fefda3b47c16edb96c23fed37">graphDisplayManager</a></td></tr>
+<tr class="memdesc:a572a1f4fefda3b47c16edb96c23fed37"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reference to the <a class="el" href="class_graph_display_manager.html" title="Manages the display of a financial graph based on transaction data, including generating slices and l...">GraphDisplayManager</a> that handles the graphical display of statistics.  <br /></td></tr>
+<tr class="separator:a572a1f4fefda3b47c16edb96c23fed37"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94bdbf0b78c2867892ee795d3bdeef9d" id="r_a94bdbf0b78c2867892ee795d3bdeef9d"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a94bdbf0b78c2867892ee795d3bdeef9d">_expenseAmount</a></td></tr>
+<tr class="memdesc:a94bdbf0b78c2867892ee795d3bdeef9d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stores the total expense amount.  <br /></td></tr>
+<tr class="separator:a94bdbf0b78c2867892ee795d3bdeef9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab42bc208c50e40fe652252d36a9b7d42" id="r_ab42bc208c50e40fe652252d36a9b7d42"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab42bc208c50e40fe652252d36a9b7d42">_incomeAmount</a></td></tr>
+<tr class="memdesc:ab42bc208c50e40fe652252d36a9b7d42"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stores the total income amount.  <br /></td></tr>
+<tr class="separator:ab42bc208c50e40fe652252d36a9b7d42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:a1993da0add4a83f56811bf00af4c7bf0" id="r_a1993da0add4a83f56811bf00af4c7bf0"><td class="memItemLeft" align="right" valign="top">static readonly CultureInfo&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1993da0add4a83f56811bf00af4c7bf0">FrenchCulture</a> = new CultureInfo(&quot;fr-FR&quot;)</td></tr>
+<tr class="memdesc:a1993da0add4a83f56811bf00af4c7bf0"><td class="mdescLeft">&#160;</td><td class="mdescRight">CultureInfo for French culture, used for date formatting.  <br /></td></tr>
+<tr class="separator:a1993da0add4a83f56811bf00af4c7bf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac23d6f39a020a29aadf024d7d91cf158" id="r_ac23d6f39a020a29aadf024d7d91cf158"><td class="memItemLeft" align="right" valign="top">static readonly string[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac23d6f39a020a29aadf024d7d91cf158">DateFormats</a> = { &quot;dddd dd MMMM yyyy&quot;, &quot;dddd d MMMM yyyy&quot; }</td></tr>
+<tr class="memdesc:ac23d6f39a020a29aadf024d7d91cf158"><td class="mdescLeft">&#160;</td><td class="mdescRight">Supported date formats for parsing transaction dates.  <br /></td></tr>
+<tr class="separator:ac23d6f39a020a29aadf024d7d91cf158"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Manages the statistics view by filtering transactions by date and category, computing totals, and displaying the data graphically. </p>
-
-<p class="definition">Definition at line <a class="el" href="_stats_manager_8cs_source.html#l00011">11</a> of file <a class="el" href="_stats_manager_8cs_source.html">StatsManager.cs</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a64dd6705381ccb24fb5cef0b82f95346" name="a64dd6705381ccb24fb5cef0b82f95346"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a64dd6705381ccb24fb5cef0b82f95346">&#9670;&#160;</a></span>ValidateButton()</h2>
+<a id="aa956bd4961be818ccfddf4838f3a0c33" name="aa956bd4961be818ccfddf4838f3a0c33"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa956bd4961be818ccfddf4838f3a0c33">&#9670;&#160;</a></span>DisplayGraph()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -139,7 +207,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void StatsManager.ValidateButton </td>
+          <td class="memname">void StatsManager.DisplayGraph </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -147,31 +215,698 @@ Public Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
+<p>Displays the graph by resetting the graph panel, retrieving filtered transactions, and updating the amounts. </p>
+
+</div>
+</div>
+<a id="a759038d4bef2a26e6d82404deb971f06" name="a759038d4bef2a26e6d82404deb971f06"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a759038d4bef2a26e6d82404deb971f06">&#9670;&#160;</a></span>GenerateTransaction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_transaction.html">Transaction</a> StatsManager.GenerateTransaction </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_transaction.html">Transaction</a></td>          <td class="paramname"><span class="paramname"><em>tradeToCopy</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">DateTime</td>          <td class="paramname"><span class="paramname"><em>nextDate</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generates a provisional transaction based on a given transaction template and a specified new date. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">tradeToCopy</td><td>The transaction to copy properties from.</td></tr>
+    <tr><td class="paramname">nextDate</td><td>The new date for the provisional transaction.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A new <a class="el" href="class_transaction.html" title="Represents a financial transaction record, including details such as amount, category,...">Transaction</a> object with updated date and description, marked as a provisional (non-recurring) transaction. </dd></dl>
+
+</div>
+</div>
+<a id="ac497ec71c0148f17a8b0f83018622d99" name="ac497ec71c0148f17a8b0f83018622d99"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac497ec71c0148f17a8b0f83018622d99">&#9670;&#160;</a></span>GetExistingTrades()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt; <a class="el" href="class_transaction.html">Transaction</a> &gt; StatsManager.GetExistingTrades </td>
+          <td>(</td>
+          <td class="paramtype">DateTime</td>          <td class="paramname"><span class="paramname"><em>startDate</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">DateTime</td>          <td class="paramname"><span class="paramname"><em>endDate</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Retrieves transactions that exist between the given start and end dates. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">startDate</td><td>The start date for filtering transactions.</td></tr>
+    <tr><td class="paramname">endDate</td><td>The end date for filtering transactions.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A list of transactions within the specified date range.</dd></dl>
+
+</div>
+</div>
+<a id="a080299df43673e800040c6ac85f2f5fc" name="a080299df43673e800040c6ac85f2f5fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a080299df43673e800040c6ac85f2f5fc">&#9670;&#160;</a></span>GetNextDate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">DateTime StatsManager.GetNextDate </td>
+          <td>(</td>
+          <td class="paramtype">DateTime</td>          <td class="paramname"><span class="paramname"><em>date</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>periodicity</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Calculates the next occurrence date based on the current date and the provided periodicity. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">date</td><td>The current date.</td></tr>
+    <tr><td class="paramname">periodicity</td><td>The periodicity of recurrence ("Day", "Week", "Month", or "Year").</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The next occurrence date.</dd></dl>
+
+</div>
+</div>
+<a id="ac666dc4db6944804c6e731afff41fde8" name="ac666dc4db6944804c6e731afff41fde8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac666dc4db6944804c6e731afff41fde8">&#9670;&#160;</a></span>GetTradesWithProvisional()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt; <a class="el" href="class_transaction.html">Transaction</a> &gt; StatsManager.GetTradesWithProvisional </td>
+          <td>(</td>
+          <td class="paramtype">DateTime</td>          <td class="paramname"><span class="paramname"><em>endDate</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Retrieves transactions, including provisional recurring transactions, up to the specified end date. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">endDate</td><td>The end date to consider for provisional transactions.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A list of transactions including provisional recurring ones.</dd></dl>
+
+</div>
+</div>
+<a id="a30aded4de6ea87f8fd9f67e4162e81df" name="a30aded4de6ea87f8fd9f67e4162e81df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a30aded4de6ea87f8fd9f67e4162e81df">&#9670;&#160;</a></span>GetTransactionsDateToDate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt; <a class="el" href="class_transaction.html">Transaction</a> &gt; StatsManager.GetTransactionsDateToDate </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>startDate</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>endDate</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Retrieves transactions between two dates given as strings. Determines whether to include provisional recurring transactions based on the end date. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">startDate</td><td>The start date as a string.</td></tr>
+    <tr><td class="paramname">endDate</td><td>The end date as a string.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A list of transactions between the specified dates.</dd></dl>
+
+</div>
+</div>
+<a id="ae6f7758e41a7c6cb85055b92a9b16073" name="ae6f7758e41a7c6cb85055b92a9b16073"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae6f7758e41a7c6cb85055b92a9b16073">&#9670;&#160;</a></span>InitCategories()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void StatsManager.InitCategories </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Initializes the category dropdown list with a default option and loaded categories. </p>
+
+</div>
+</div>
+<a id="af506b5e943d1b28fd4bed0a09a66fc08" name="af506b5e943d1b28fd4bed0a09a66fc08"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af506b5e943d1b28fd4bed0a09a66fc08">&#9670;&#160;</a></span>OnDisable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void StatsManager.OnDisable </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Called when the object becomes disabled or inactive. Resets the statistics panel data. </p>
+
+</div>
+</div>
+<a id="a418b9d0686f92396e7cdf2245b380515" name="a418b9d0686f92396e7cdf2245b380515"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a418b9d0686f92396e7cdf2245b380515">&#9670;&#160;</a></span>OnEnable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void StatsManager.OnEnable </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Called when the object becomes enabled and active. Initializes the statistics panel with default dates, resets amounts, and loads categories. </p>
+
+</div>
+</div>
+<a id="ad11e98a4542b48cf59ac20922e64fe95" name="ad11e98a4542b48cf59ac20922e64fe95"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad11e98a4542b48cf59ac20922e64fe95">&#9670;&#160;</a></span>ResetData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void StatsManager.ResetData </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Resets the statistics panel data to its default state. </p>
+
+</div>
+</div>
+<a id="a64dd6705381ccb24fb5cef0b82f95346" name="a64dd6705381ccb24fb5cef0b82f95346"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a64dd6705381ccb24fb5cef0b82f95346">&#9670;&#160;</a></span>ValidateButton()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void StatsManager.ValidateButton </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
 <p>Validates the current settings and displays the graph with updated statistics. </p>
 
-<p class="definition">Definition at line <a class="el" href="_stats_manager_8cs_source.html#l00350">350</a> of file <a class="el" href="_stats_manager_8cs_source.html">StatsManager.cs</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  351</span>    {</div>
-<div class="line"><span class="lineno">  352</span>        DisplayGraph();</div>
-<div class="line"><span class="lineno">  353</span>    }</div>
-</div><!-- fragment -->
 </div>
 </div>
-<hr/>The documentation for this class was generated from the following file:<ul>
-<li>C:/Users/Thomas/Videos/Projets_Unity/BudgetApp/Assets/Scripts/Stats/<a class="el" href="_stats_manager_8cs_source.html">StatsManager.cs</a></li>
-</ul>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a94bdbf0b78c2867892ee795d3bdeef9d" name="a94bdbf0b78c2867892ee795d3bdeef9d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a94bdbf0b78c2867892ee795d3bdeef9d">&#9670;&#160;</a></span>_expenseAmount</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float StatsManager._expenseAmount</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Stores the total expense amount. </p>
+
+</div>
+</div>
+<a id="ab42bc208c50e40fe652252d36a9b7d42" name="ab42bc208c50e40fe652252d36a9b7d42"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab42bc208c50e40fe652252d36a9b7d42">&#9670;&#160;</a></span>_incomeAmount</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float StatsManager._incomeAmount</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Stores the total income amount. </p>
+
+</div>
+</div>
+<a id="a1026d1e08fe5c56c0714e340d53496a5" name="a1026d1e08fe5c56c0714e340d53496a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1026d1e08fe5c56c0714e340d53496a5">&#9670;&#160;</a></span>balanceAmountText</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">TextMeshProUGUI StatsManager.balanceAmountText</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Text element displaying the overall balance (income minus expenses). </p>
+
+</div>
+</div>
+<a id="a08eade938b54083b26ac0837c2d90b6a" name="a08eade938b54083b26ac0837c2d90b6a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a08eade938b54083b26ac0837c2d90b6a">&#9670;&#160;</a></span>categoryDropdown</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">TMP_Dropdown StatsManager.categoryDropdown</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Dropdown for selecting a category to filter transactions. </p>
+
+</div>
+</div>
+<a id="a696510168c02a74e2a45fc34216b5f5d" name="a696510168c02a74e2a45fc34216b5f5d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a696510168c02a74e2a45fc34216b5f5d">&#9670;&#160;</a></span>categoryListManager</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_category_list_manager.html">CategoryListManager</a> StatsManager.categoryListManager</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reference to the <a class="el" href="class_category_list_manager.html" title="Manages the list of categories by loading, saving, adding, removing, and updating categories,...">CategoryListManager</a> for loading category data. </p>
+
+</div>
+</div>
+<a id="a023dfc39923329f3198acb3bb9ff048c" name="a023dfc39923329f3198acb3bb9ff048c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a023dfc39923329f3198acb3bb9ff048c">&#9670;&#160;</a></span>databaseManager</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_database_manager.html">DatabaseManager</a> StatsManager.databaseManager</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reference to the <a class="el" href="class_database_manager.html" title="Manages the SQLite database used for storing transactions and recurring trades.">DatabaseManager</a> for accessing transaction data. </p>
+
+</div>
+</div>
+<a id="ac23d6f39a020a29aadf024d7d91cf158" name="ac23d6f39a020a29aadf024d7d91cf158"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac23d6f39a020a29aadf024d7d91cf158">&#9670;&#160;</a></span>DateFormats</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly string [] StatsManager.DateFormats = { &quot;dddd dd MMMM yyyy&quot;, &quot;dddd d MMMM yyyy&quot; }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Supported date formats for parsing transaction dates. </p>
+
+</div>
+</div>
+<a id="a5a92ab5b71b8fdd33c1397605a1a56e8" name="a5a92ab5b71b8fdd33c1397605a1a56e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a92ab5b71b8fdd33c1397605a1a56e8">&#9670;&#160;</a></span>endDateText</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">TextMeshProUGUI StatsManager.endDateText</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Text element displaying the end date of the statistics period. </p>
+
+</div>
+</div>
+<a id="ad12084084e6bed636948adbe84fa5afb" name="ad12084084e6bed636948adbe84fa5afb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad12084084e6bed636948adbe84fa5afb">&#9670;&#160;</a></span>expenseAmountText</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">TextMeshProUGUI StatsManager.expenseAmountText</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Text element displaying the total expense amount. </p>
+
+</div>
+</div>
+<a id="a1993da0add4a83f56811bf00af4c7bf0" name="a1993da0add4a83f56811bf00af4c7bf0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1993da0add4a83f56811bf00af4c7bf0">&#9670;&#160;</a></span>FrenchCulture</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly CultureInfo StatsManager.FrenchCulture = new CultureInfo(&quot;fr-FR&quot;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>CultureInfo for French culture, used for date formatting. </p>
+
+</div>
+</div>
+<a id="a572a1f4fefda3b47c16edb96c23fed37" name="a572a1f4fefda3b47c16edb96c23fed37"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a572a1f4fefda3b47c16edb96c23fed37">&#9670;&#160;</a></span>graphDisplayManager</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_graph_display_manager.html">GraphDisplayManager</a> StatsManager.graphDisplayManager</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reference to the <a class="el" href="class_graph_display_manager.html" title="Manages the display of a financial graph based on transaction data, including generating slices and l...">GraphDisplayManager</a> that handles the graphical display of statistics. </p>
+
+</div>
+</div>
+<a id="a4c6026ec66bebc699b57db032b073846" name="a4c6026ec66bebc699b57db032b073846"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c6026ec66bebc699b57db032b073846">&#9670;&#160;</a></span>incomeAmountText</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">TextMeshProUGUI StatsManager.incomeAmountText</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Text element displaying the total income amount. </p>
+
+</div>
+</div>
+<a id="a83b67aa5a029a317e0f148cb069e4a7d" name="a83b67aa5a029a317e0f148cb069e4a7d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a83b67aa5a029a317e0f148cb069e4a7d">&#9670;&#160;</a></span>negativeColor</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Color StatsManager.negativeColor</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Color used to display negative amounts. </p>
+
+</div>
+</div>
+<a id="a41d65f7231bb6d6ac26e6dedc4f7bf98" name="a41d65f7231bb6d6ac26e6dedc4f7bf98"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a41d65f7231bb6d6ac26e6dedc4f7bf98">&#9670;&#160;</a></span>positiveColor</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Color StatsManager.positiveColor</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Color used to display positive amounts. </p>
+
+</div>
+</div>
+<a id="a968a12214dc8c31ddc17c57cabfdfb4f" name="a968a12214dc8c31ddc17c57cabfdfb4f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a968a12214dc8c31ddc17c57cabfdfb4f">&#9670;&#160;</a></span>startDateText</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">TextMeshProUGUI StatsManager.startDateText</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Text element displaying the start date of the statistics period. </p>
+
+</div>
+</div>
 </div><!-- contents -->
-</div><!-- doc-content -->
 <!-- start footer part -->
-<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
-  <ul>
-    <li class="navelem"><a class="el" href="class_stats_manager.html">StatsManager</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
-  </ul>
-</div>
+<hr class="footer"/><address class="footer"><small>
+Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2
+</small></address>
+</div><!-- doc-content -->
 </body>
 </html>

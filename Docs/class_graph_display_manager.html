@@ -5,14 +5,12 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.13.2"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>My Project: GraphDisplayManager Class Reference</title>
+<title>WalletWiz: GraphDisplayManager Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
 <script type="text/javascript" src="clipboard.js"></script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript" src="navtreedata.js"></script>
-<script type="text/javascript" src="navtree.js"></script>
 <script type="text/javascript" src="resize.js"></script>
 <script type="text/javascript" src="cookie.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
@@ -31,8 +29,9 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="Logo_192x192.png"/></td>
   <td id="projectalign">
-   <div id="projectname">My Project
+   <div id="projectname">WalletWiz<span id="projectnumber">&#160;V1.0</span>
    </div>
   </td>
     <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -63,23 +62,11 @@ var searchBox = new SearchBox("searchBox", "search/",'.html');
 $(function() { codefold.init(0); });
 /* @license-end */
 </script>
-</div><!-- top -->
-<div id="side-nav" class="ui-resizable side-nav-resizable">
-  <div id="nav-tree">
-    <div id="nav-tree-contents">
-      <div id="nav-sync" class="sync"></div>
-    </div>
-  </div>
-  <div id="splitbar" style="-moz-user-select:none;" 
-       class="ui-resizable-handle">
-  </div>
-</div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(function(){initNavTree('class_graph_display_manager.html',''); initResizable(true); });
+$(function(){ initResizable(false); });
 /* @license-end */
 </script>
-<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -101,9 +88,13 @@ $(function(){initNavTree('class_graph_display_manager.html',''); initResizable(t
 </div>
 </div>
 
+</div><!-- top -->
+<div id="doc-content">
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_graph_display_manager-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">GraphDisplayManager Class Reference</div></div>
 </div><!--header-->
@@ -111,12 +102,6 @@ $(function(){initNavTree('class_graph_display_manager.html',''); initResizable(t
 
 <p>Manages the display of a financial graph based on transaction data, including generating slices and legend lines to represent various categories.  
  <a href="#details">More...</a></p>
-<div class="dynheader">
-Inheritance diagram for GraphDisplayManager:</div>
-<div class="dyncontent">
- <div class="center">
-  <img src="class_graph_display_manager.png" alt=""/>
- </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -132,20 +117,155 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab3d03c5fd75790bdc04cf88928cdc2c5" id="r_ab3d03c5fd75790bdc04cf88928cdc2c5"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab3d03c5fd75790bdc04cf88928cdc2c5">GetIncomeAmount</a> ()</td></tr>
 <tr class="memdesc:ab3d03c5fd75790bdc04cf88928cdc2c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the total income amount computed from the transactions.  <br /></td></tr>
 <tr class="separator:ab3d03c5fd75790bdc04cf88928cdc2c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a23b1e0fc988e3acec68e329285426f6e" id="r_a23b1e0fc988e3acec68e329285426f6e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a23b1e0fc988e3acec68e329285426f6e">OnEnable</a> ()</td></tr>
+<tr class="memdesc:a23b1e0fc988e3acec68e329285426f6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when the object becomes enabled. Initializes lists used for graph display.  <br /></td></tr>
+<tr class="separator:a23b1e0fc988e3acec68e329285426f6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91196f31c28c4daed595e370ee311678" id="r_a91196f31c28c4daed595e370ee311678"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a91196f31c28c4daed595e370ee311678">OnDisable</a> ()</td></tr>
+<tr class="memdesc:a91196f31c28c4daed595e370ee311678"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when the object becomes disabled. Resets the graph data and cleans up instantiated objects.  <br /></td></tr>
+<tr class="separator:a91196f31c28c4daed595e370ee311678"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3dae0943741a237f71d4deb5a8725e1e" id="r_a3dae0943741a237f71d4deb5a8725e1e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3dae0943741a237f71d4deb5a8725e1e">ResetData</a> ()</td></tr>
+<tr class="memdesc:a3dae0943741a237f71d4deb5a8725e1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resets the graph display data by destroying all instantiated slices and legend lines, and clearing the grouping and subtotal lists.  <br /></td></tr>
+<tr class="separator:a3dae0943741a237f71d4deb5a8725e1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ad466395afd60a7c34997d8173813ae" id="r_a7ad466395afd60a7c34997d8173813ae"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7ad466395afd60a7c34997d8173813ae">GetAllCategoryTrades</a> (List&lt; <a class="el" href="class_transaction.html">Transaction</a> &gt; transactions)</td></tr>
+<tr class="memdesc:a7ad466395afd60a7c34997d8173813ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Groups transactions by their category into separate lists.  <br /></td></tr>
+<tr class="separator:a7ad466395afd60a7c34997d8173813ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d26d7872c0050a1f4ed80177d9e1e22" id="r_a4d26d7872c0050a1f4ed80177d9e1e22"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4d26d7872c0050a1f4ed80177d9e1e22">GetOneCategoryTrades</a> (List&lt; <a class="el" href="class_transaction.html">Transaction</a> &gt; transactions, string category)</td></tr>
+<tr class="memdesc:a4d26d7872c0050a1f4ed80177d9e1e22"><td class="mdescLeft">&#160;</td><td class="mdescRight">Filters transactions for a specific category and separates them into expenses and incomes.  <br /></td></tr>
+<tr class="separator:a4d26d7872c0050a1f4ed80177d9e1e22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac03ca7715cdc92016f3703f7155a5700" id="r_ac03ca7715cdc92016f3703f7155a5700"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac03ca7715cdc92016f3703f7155a5700">GetCategoryTrade</a> (List&lt; <a class="el" href="class_transaction.html">Transaction</a> &gt; transactions, string category)</td></tr>
+<tr class="memdesc:ac03ca7715cdc92016f3703f7155a5700"><td class="mdescLeft">&#160;</td><td class="mdescRight">Groups transactions by category or filters for one category based on the provided category parameter.  <br /></td></tr>
+<tr class="separator:ac03ca7715cdc92016f3703f7155a5700"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ec6be8a40cb996da126b0ff8ac1d080" id="r_a2ec6be8a40cb996da126b0ff8ac1d080"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2ec6be8a40cb996da126b0ff8ac1d080">CalculateAmounts</a> ()</td></tr>
+<tr class="memdesc:a2ec6be8a40cb996da126b0ff8ac1d080"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculates total expense and income amounts and computes subtotals for each group of transactions.  <br /></td></tr>
+<tr class="separator:a2ec6be8a40cb996da126b0ff8ac1d080"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1cd7c4e2ac6419231e9e718371e0ac63" id="r_a1cd7c4e2ac6419231e9e718371e0ac63"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1cd7c4e2ac6419231e9e718371e0ac63">DisplaySlices</a> (string category)</td></tr>
+<tr class="memdesc:a1cd7c4e2ac6419231e9e718371e0ac63"><td class="mdescLeft">&#160;</td><td class="mdescRight">Displays the graph slices based on the computed subtotals and the specified category filter.  <br /></td></tr>
+<tr class="separator:a1cd7c4e2ac6419231e9e718371e0ac63"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a912e7150042301e2fc1d5ec2946f6dcd" id="r_a912e7150042301e2fc1d5ec2946f6dcd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a912e7150042301e2fc1d5ec2946f6dcd">DisplayLegendLine</a> (string category)</td></tr>
+<tr class="memdesc:a912e7150042301e2fc1d5ec2946f6dcd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Displays legend lines corresponding to the graph slices, including category names and percentages.  <br /></td></tr>
+<tr class="separator:a912e7150042301e2fc1d5ec2946f6dcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1fd3487ed68b47890ead426a1407d352" id="r_a1fd3487ed68b47890ead426a1407d352"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1fd3487ed68b47890ead426a1407d352">Display</a> (List&lt; <a class="el" href="class_transaction.html">Transaction</a> &gt; transactions, string category)</td></tr>
+<tr class="memdesc:a1fd3487ed68b47890ead426a1407d352"><td class="mdescLeft">&#160;</td><td class="mdescRight">Displays the graph by resetting data, grouping transactions by category, and generating both slices and legend lines.  <br /></td></tr>
+<tr class="separator:a1fd3487ed68b47890ead426a1407d352"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a89875f6a053e0c99bc5392dd7e58a4fd" id="r_a89875f6a053e0c99bc5392dd7e58a4fd"><td class="memItemLeft" align="right" valign="top">List&lt; Color &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a89875f6a053e0c99bc5392dd7e58a4fd">sliceColors</a></td></tr>
+<tr class="memdesc:a89875f6a053e0c99bc5392dd7e58a4fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of colors used for graph slices when displaying all categories.  <br /></td></tr>
+<tr class="separator:a89875f6a053e0c99bc5392dd7e58a4fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a547f054f8342bd12f8876f25deca163d" id="r_a547f054f8342bd12f8876f25deca163d"><td class="memItemLeft" align="right" valign="top">List&lt; Color &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a547f054f8342bd12f8876f25deca163d">oneCategoryColors</a></td></tr>
+<tr class="memdesc:a547f054f8342bd12f8876f25deca163d"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of colors used for graph slices when displaying a single category.  <br /></td></tr>
+<tr class="separator:a547f054f8342bd12f8876f25deca163d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a729050a349bcccd3d4b9a76a9fb0c046" id="r_a729050a349bcccd3d4b9a76a9fb0c046"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a729050a349bcccd3d4b9a76a9fb0c046">graphArea</a></td></tr>
+<tr class="memdesc:a729050a349bcccd3d4b9a76a9fb0c046"><td class="mdescLeft">&#160;</td><td class="mdescRight">The area where the graph slices are displayed.  <br /></td></tr>
+<tr class="separator:a729050a349bcccd3d4b9a76a9fb0c046"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec9c72bb0e116a7b60f64a0420ed19bf" id="r_aec9c72bb0e116a7b60f64a0420ed19bf"><td class="memItemLeft" align="right" valign="top">RectTransform&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aec9c72bb0e116a7b60f64a0420ed19bf">slicePrefab</a></td></tr>
+<tr class="memdesc:aec9c72bb0e116a7b60f64a0420ed19bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prefab for a single graph slice (should be a RectTransform with an Image component).  <br /></td></tr>
+<tr class="separator:aec9c72bb0e116a7b60f64a0420ed19bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa10e07eb906c868aa2ff51837c19a58e" id="r_aa10e07eb906c868aa2ff51837c19a58e"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa10e07eb906c868aa2ff51837c19a58e">gridLayout</a></td></tr>
+<tr class="memdesc:aa10e07eb906c868aa2ff51837c19a58e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Grid layout used to display legend lines.  <br /></td></tr>
+<tr class="separator:aa10e07eb906c868aa2ff51837c19a58e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38926aa8782659bce139ef9262ab7375" id="r_a38926aa8782659bce139ef9262ab7375"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a38926aa8782659bce139ef9262ab7375">legendLine</a></td></tr>
+<tr class="memdesc:a38926aa8782659bce139ef9262ab7375"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prefab for a legend line.  <br /></td></tr>
+<tr class="separator:a38926aa8782659bce139ef9262ab7375"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad66fd49f9a375149bd07621a35f09197" id="r_ad66fd49f9a375149bd07621a35f09197"><td class="memItemLeft" align="right" valign="top">List&lt; RectTransform &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad66fd49f9a375149bd07621a35f09197">_sliceObjects</a></td></tr>
+<tr class="memdesc:ad66fd49f9a375149bd07621a35f09197"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of instantiated slice objects.  <br /></td></tr>
+<tr class="separator:ad66fd49f9a375149bd07621a35f09197"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38b469855559160fea7d92e50459b062" id="r_a38b469855559160fea7d92e50459b062"><td class="memItemLeft" align="right" valign="top">List&lt; GameObject &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a38b469855559160fea7d92e50459b062">_legendLineObjects</a></td></tr>
+<tr class="memdesc:a38b469855559160fea7d92e50459b062"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of instantiated legend line objects.  <br /></td></tr>
+<tr class="separator:a38b469855559160fea7d92e50459b062"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3736def662fd2f5537791c941fbb86e" id="r_ad3736def662fd2f5537791c941fbb86e"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad3736def662fd2f5537791c941fbb86e">_expenseAmount</a></td></tr>
+<tr class="memdesc:ad3736def662fd2f5537791c941fbb86e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Total expense amount calculated from the transactions.  <br /></td></tr>
+<tr class="separator:ad3736def662fd2f5537791c941fbb86e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad991b33bd7393e2229313b0f50e3c561" id="r_ad991b33bd7393e2229313b0f50e3c561"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad991b33bd7393e2229313b0f50e3c561">_incomeAmount</a></td></tr>
+<tr class="memdesc:ad991b33bd7393e2229313b0f50e3c561"><td class="mdescLeft">&#160;</td><td class="mdescRight">Total income amount calculated from the transactions.  <br /></td></tr>
+<tr class="separator:ad991b33bd7393e2229313b0f50e3c561"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a669660720300d44e0fea4d5b21a7b889" id="r_a669660720300d44e0fea4d5b21a7b889"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a669660720300d44e0fea4d5b21a7b889">_totalAmount</a></td></tr>
+<tr class="memdesc:a669660720300d44e0fea4d5b21a7b889"><td class="mdescLeft">&#160;</td><td class="mdescRight">Total sum of income and expense amounts.  <br /></td></tr>
+<tr class="separator:a669660720300d44e0fea4d5b21a7b889"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb2306fadd9767c2ca6705d2a042e9fd" id="r_abb2306fadd9767c2ca6705d2a042e9fd"><td class="memItemLeft" align="right" valign="top">List&lt; List&lt; <a class="el" href="class_transaction.html">Transaction</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abb2306fadd9767c2ca6705d2a042e9fd">_categoryTradesList</a></td></tr>
+<tr class="memdesc:abb2306fadd9767c2ca6705d2a042e9fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of lists containing transactions grouped by category.  <br /></td></tr>
+<tr class="separator:abb2306fadd9767c2ca6705d2a042e9fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad70cd7556ea8efcc0c7b59a3930612f" id="r_aad70cd7556ea8efcc0c7b59a3930612f"><td class="memItemLeft" align="right" valign="top">List&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aad70cd7556ea8efcc0c7b59a3930612f">_subtotals</a></td></tr>
+<tr class="memdesc:aad70cd7556ea8efcc0c7b59a3930612f"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of subtotal amounts per category.  <br /></td></tr>
+<tr class="separator:aad70cd7556ea8efcc0c7b59a3930612f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Manages the display of a financial graph based on transaction data, including generating slices and legend lines to represent various categories. </p>
-
-<p class="definition">Definition at line <a class="el" href="_graph_display_manager_8cs_source.html#l00010">10</a> of file <a class="el" href="_graph_display_manager_8cs_source.html">GraphDisplayManager.cs</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a5d9b5e5fdfd0f63e42a248c1332b9f7e" name="a5d9b5e5fdfd0f63e42a248c1332b9f7e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5d9b5e5fdfd0f63e42a248c1332b9f7e">&#9670;&#160;</a></span>DisplayGraph()</h2>
+<a id="a2ec6be8a40cb996da126b0ff8ac1d080" name="a2ec6be8a40cb996da126b0ff8ac1d080"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ec6be8a40cb996da126b0ff8ac1d080">&#9670;&#160;</a></span>CalculateAmounts()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GraphDisplayManager.CalculateAmounts </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Calculates total expense and income amounts and computes subtotals for each group of transactions. </p>
+
+</div>
+</div>
+<a id="a1fd3487ed68b47890ead426a1407d352" name="a1fd3487ed68b47890ead426a1407d352"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1fd3487ed68b47890ead426a1407d352">&#9670;&#160;</a></span>Display()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GraphDisplayManager.Display </td>
+          <td>(</td>
+          <td class="paramtype">List&lt; <a class="el" href="class_transaction.html">Transaction</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>transactions</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>category</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Displays the graph by resetting data, grouping transactions by category, and generating both slices and legend lines. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">transactions</td><td>The list of transactions to display.</td></tr>
+    <tr><td class="paramname">category</td><td>The category filter to apply when grouping transactions.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a5d9b5e5fdfd0f63e42a248c1332b9f7e" name="a5d9b5e5fdfd0f63e42a248c1332b9f7e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d9b5e5fdfd0f63e42a248c1332b9f7e">&#9670;&#160;</a></span>DisplayGraph()</h2>
+
+<div class="memitem">
+<div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">void GraphDisplayManager.DisplayGraph </td>
@@ -158,11 +278,6 @@ Public Member Functions</h2></td></tr>
           <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>category</em></span>&#160;)</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Displays the graph with the specified transactions and category filter. </p>
@@ -174,11 +289,143 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="_graph_display_manager_8cs_source.html#l00331">331</a> of file <a class="el" href="_graph_display_manager_8cs_source.html">GraphDisplayManager.cs</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  332</span>    {</div>
-<div class="line"><span class="lineno">  333</span>        Display(transactions, category);</div>
-<div class="line"><span class="lineno">  334</span>    }</div>
-</div><!-- fragment -->
+</div>
+</div>
+<a id="a912e7150042301e2fc1d5ec2946f6dcd" name="a912e7150042301e2fc1d5ec2946f6dcd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a912e7150042301e2fc1d5ec2946f6dcd">&#9670;&#160;</a></span>DisplayLegendLine()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GraphDisplayManager.DisplayLegendLine </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>category</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Displays legend lines corresponding to the graph slices, including category names and percentages. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">category</td><td>The category filter used to determine the legend text and colors.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a1cd7c4e2ac6419231e9e718371e0ac63" name="a1cd7c4e2ac6419231e9e718371e0ac63"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1cd7c4e2ac6419231e9e718371e0ac63">&#9670;&#160;</a></span>DisplaySlices()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GraphDisplayManager.DisplaySlices </td>
+          <td>(</td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>category</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Displays the graph slices based on the computed subtotals and the specified category filter. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">category</td><td>The category filter used to determine the slice colors.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a7ad466395afd60a7c34997d8173813ae" name="a7ad466395afd60a7c34997d8173813ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ad466395afd60a7c34997d8173813ae">&#9670;&#160;</a></span>GetAllCategoryTrades()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GraphDisplayManager.GetAllCategoryTrades </td>
+          <td>(</td>
+          <td class="paramtype">List&lt; <a class="el" href="class_transaction.html">Transaction</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>transactions</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Groups transactions by their category into separate lists. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">transactions</td><td>The list of transactions to be grouped.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ac03ca7715cdc92016f3703f7155a5700" name="ac03ca7715cdc92016f3703f7155a5700"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac03ca7715cdc92016f3703f7155a5700">&#9670;&#160;</a></span>GetCategoryTrade()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GraphDisplayManager.GetCategoryTrade </td>
+          <td>(</td>
+          <td class="paramtype">List&lt; <a class="el" href="class_transaction.html">Transaction</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>transactions</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>category</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Groups transactions by category or filters for one category based on the provided category parameter. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">transactions</td><td>The list of transactions to group.</td></tr>
+    <tr><td class="paramname">category</td><td>The category filter; if "Toutes les catégories", all transactions are grouped by category.</td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="a5f8b7af41e5b6a8f39e18537969c2a3f" name="a5f8b7af41e5b6a8f39e18537969c2a3f"></a>
@@ -186,9 +433,6 @@ Public Member Functions</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">float GraphDisplayManager.GetExpenseAmount </td>
@@ -197,21 +441,11 @@ Public Member Functions</h2></td></tr>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Gets the total expense amount computed from the transactions. </p>
 <dl class="section return"><dt>Returns</dt><dd>The total expense amount as a float.</dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_graph_display_manager_8cs_source.html#l00348">348</a> of file <a class="el" href="_graph_display_manager_8cs_source.html">GraphDisplayManager.cs</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  349</span>    {</div>
-<div class="line"><span class="lineno">  350</span>        <span class="keywordflow">return</span> _expenseAmount;</div>
-<div class="line"><span class="lineno">  351</span>    }</div>
-</div><!-- fragment -->
 </div>
 </div>
 <a id="ab3d03c5fd75790bdc04cf88928cdc2c5" name="ab3d03c5fd75790bdc04cf88928cdc2c5"></a>
@@ -219,9 +453,6 @@ Public Member Functions</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">float GraphDisplayManager.GetIncomeAmount </td>
@@ -230,25 +461,15 @@ Public Member Functions</h2></td></tr>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Gets the total income amount computed from the transactions. </p>
 <dl class="section return"><dt>Returns</dt><dd>The total income amount as a float.</dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_graph_display_manager_8cs_source.html#l00357">357</a> of file <a class="el" href="_graph_display_manager_8cs_source.html">GraphDisplayManager.cs</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  358</span>    {</div>
-<div class="line"><span class="lineno">  359</span>        <span class="keywordflow">return</span> _incomeAmount;</div>
-<div class="line"><span class="lineno">  360</span>    }</div>
-</div><!-- fragment -->
 </div>
 </div>
-<a id="a77af2dc324de59cbe78926dc7ec78a26" name="a77af2dc324de59cbe78926dc7ec78a26"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a77af2dc324de59cbe78926dc7ec78a26">&#9670;&#160;</a></span>ResetPanel()</h2>
+<a id="a4d26d7872c0050a1f4ed80177d9e1e22" name="a4d26d7872c0050a1f4ed80177d9e1e22"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d26d7872c0050a1f4ed80177d9e1e22">&#9670;&#160;</a></span>GetOneCategoryTrades()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -257,7 +478,45 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void GraphDisplayManager.ResetPanel </td>
+          <td class="memname">void GraphDisplayManager.GetOneCategoryTrades </td>
+          <td>(</td>
+          <td class="paramtype">List&lt; <a class="el" href="class_transaction.html">Transaction</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>transactions</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>category</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Filters transactions for a specific category and separates them into expenses and incomes. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">transactions</td><td>The list of transactions to filter.</td></tr>
+    <tr><td class="paramname">category</td><td>The specific category to filter by.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a91196f31c28c4daed595e370ee311678" name="a91196f31c28c4daed595e370ee311678"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a91196f31c28c4daed595e370ee311678">&#9670;&#160;</a></span>OnDisable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GraphDisplayManager.OnDisable </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -265,31 +524,406 @@ Public Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
+<p>Called when the object becomes disabled. Resets the graph data and cleans up instantiated objects. </p>
+
+</div>
+</div>
+<a id="a23b1e0fc988e3acec68e329285426f6e" name="a23b1e0fc988e3acec68e329285426f6e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a23b1e0fc988e3acec68e329285426f6e">&#9670;&#160;</a></span>OnEnable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GraphDisplayManager.OnEnable </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Called when the object becomes enabled. Initializes lists used for graph display. </p>
+
+</div>
+</div>
+<a id="a3dae0943741a237f71d4deb5a8725e1e" name="a3dae0943741a237f71d4deb5a8725e1e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3dae0943741a237f71d4deb5a8725e1e">&#9670;&#160;</a></span>ResetData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GraphDisplayManager.ResetData </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Resets the graph display data by destroying all instantiated slices and legend lines, and clearing the grouping and subtotal lists. </p>
+
+</div>
+</div>
+<a id="a77af2dc324de59cbe78926dc7ec78a26" name="a77af2dc324de59cbe78926dc7ec78a26"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a77af2dc324de59cbe78926dc7ec78a26">&#9670;&#160;</a></span>ResetPanel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GraphDisplayManager.ResetPanel </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
 <p>Resets the graph panel by clearing all data and destroying instantiated objects. </p>
 
-<p class="definition">Definition at line <a class="el" href="_graph_display_manager_8cs_source.html#l00339">339</a> of file <a class="el" href="_graph_display_manager_8cs_source.html">GraphDisplayManager.cs</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  340</span>    {</div>
-<div class="line"><span class="lineno">  341</span>        ResetData();</div>
-<div class="line"><span class="lineno">  342</span>    }</div>
-</div><!-- fragment -->
 </div>
 </div>
-<hr/>The documentation for this class was generated from the following file:<ul>
-<li>C:/Users/Thomas/Videos/Projets_Unity/BudgetApp/Assets/Scripts/Stats/<a class="el" href="_graph_display_manager_8cs_source.html">GraphDisplayManager.cs</a></li>
-</ul>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="abb2306fadd9767c2ca6705d2a042e9fd" name="abb2306fadd9767c2ca6705d2a042e9fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb2306fadd9767c2ca6705d2a042e9fd">&#9670;&#160;</a></span>_categoryTradesList</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;List&lt;<a class="el" href="class_transaction.html">Transaction</a>&gt; &gt; GraphDisplayManager._categoryTradesList</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>List of lists containing transactions grouped by category. </p>
+
+</div>
+</div>
+<a id="ad3736def662fd2f5537791c941fbb86e" name="ad3736def662fd2f5537791c941fbb86e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3736def662fd2f5537791c941fbb86e">&#9670;&#160;</a></span>_expenseAmount</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float GraphDisplayManager._expenseAmount</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Total expense amount calculated from the transactions. </p>
+
+</div>
+</div>
+<a id="ad991b33bd7393e2229313b0f50e3c561" name="ad991b33bd7393e2229313b0f50e3c561"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad991b33bd7393e2229313b0f50e3c561">&#9670;&#160;</a></span>_incomeAmount</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float GraphDisplayManager._incomeAmount</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Total income amount calculated from the transactions. </p>
+
+</div>
+</div>
+<a id="a38b469855559160fea7d92e50459b062" name="a38b469855559160fea7d92e50459b062"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a38b469855559160fea7d92e50459b062">&#9670;&#160;</a></span>_legendLineObjects</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;GameObject&gt; GraphDisplayManager._legendLineObjects</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>List of instantiated legend line objects. </p>
+
+</div>
+</div>
+<a id="ad66fd49f9a375149bd07621a35f09197" name="ad66fd49f9a375149bd07621a35f09197"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad66fd49f9a375149bd07621a35f09197">&#9670;&#160;</a></span>_sliceObjects</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;RectTransform&gt; GraphDisplayManager._sliceObjects</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>List of instantiated slice objects. </p>
+
+</div>
+</div>
+<a id="aad70cd7556ea8efcc0c7b59a3930612f" name="aad70cd7556ea8efcc0c7b59a3930612f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad70cd7556ea8efcc0c7b59a3930612f">&#9670;&#160;</a></span>_subtotals</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;float&gt; GraphDisplayManager._subtotals</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>List of subtotal amounts per category. </p>
+
+</div>
+</div>
+<a id="a669660720300d44e0fea4d5b21a7b889" name="a669660720300d44e0fea4d5b21a7b889"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a669660720300d44e0fea4d5b21a7b889">&#9670;&#160;</a></span>_totalAmount</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float GraphDisplayManager._totalAmount</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Total sum of income and expense amounts. </p>
+
+</div>
+</div>
+<a id="a729050a349bcccd3d4b9a76a9fb0c046" name="a729050a349bcccd3d4b9a76a9fb0c046"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a729050a349bcccd3d4b9a76a9fb0c046">&#9670;&#160;</a></span>graphArea</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject GraphDisplayManager.graphArea</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The area where the graph slices are displayed. </p>
+
+</div>
+</div>
+<a id="aa10e07eb906c868aa2ff51837c19a58e" name="aa10e07eb906c868aa2ff51837c19a58e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa10e07eb906c868aa2ff51837c19a58e">&#9670;&#160;</a></span>gridLayout</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject GraphDisplayManager.gridLayout</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Grid layout used to display legend lines. </p>
+
+</div>
+</div>
+<a id="a38926aa8782659bce139ef9262ab7375" name="a38926aa8782659bce139ef9262ab7375"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a38926aa8782659bce139ef9262ab7375">&#9670;&#160;</a></span>legendLine</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject GraphDisplayManager.legendLine</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Prefab for a legend line. </p>
+
+</div>
+</div>
+<a id="a547f054f8342bd12f8876f25deca163d" name="a547f054f8342bd12f8876f25deca163d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a547f054f8342bd12f8876f25deca163d">&#9670;&#160;</a></span>oneCategoryColors</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;Color&gt; GraphDisplayManager.oneCategoryColors</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>List of colors used for graph slices when displaying a single category. </p>
+
+</div>
+</div>
+<a id="a89875f6a053e0c99bc5392dd7e58a4fd" name="a89875f6a053e0c99bc5392dd7e58a4fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a89875f6a053e0c99bc5392dd7e58a4fd">&#9670;&#160;</a></span>sliceColors</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;Color&gt; GraphDisplayManager.sliceColors</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>List of colors used for graph slices when displaying all categories. </p>
+
+</div>
+</div>
+<a id="aec9c72bb0e116a7b60f64a0420ed19bf" name="aec9c72bb0e116a7b60f64a0420ed19bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec9c72bb0e116a7b60f64a0420ed19bf">&#9670;&#160;</a></span>slicePrefab</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">RectTransform GraphDisplayManager.slicePrefab</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Prefab for a single graph slice (should be a RectTransform with an Image component). </p>
+
+</div>
+</div>
 </div><!-- contents -->
-</div><!-- doc-content -->
 <!-- start footer part -->
-<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
-  <ul>
-    <li class="navelem"><a class="el" href="class_graph_display_manager.html">GraphDisplayManager</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
-  </ul>
-</div>
+<hr class="footer"/><address class="footer"><small>
+Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2
+</small></address>
+</div><!-- doc-content -->
 </body>
 </html>

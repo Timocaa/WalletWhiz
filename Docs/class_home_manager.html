@@ -5,14 +5,12 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.13.2"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>My Project: HomeManager Class Reference</title>
+<title>WalletWiz: HomeManager Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
 <script type="text/javascript" src="clipboard.js"></script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript" src="navtreedata.js"></script>
-<script type="text/javascript" src="navtree.js"></script>
 <script type="text/javascript" src="resize.js"></script>
 <script type="text/javascript" src="cookie.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
@@ -31,8 +29,9 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="Logo_192x192.png"/></td>
   <td id="projectalign">
-   <div id="projectname">My Project
+   <div id="projectname">WalletWiz<span id="projectnumber">&#160;V1.0</span>
    </div>
   </td>
     <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -63,23 +62,11 @@ var searchBox = new SearchBox("searchBox", "search/",'.html');
 $(function() { codefold.init(0); });
 /* @license-end */
 </script>
-</div><!-- top -->
-<div id="side-nav" class="ui-resizable side-nav-resizable">
-  <div id="nav-tree">
-    <div id="nav-tree-contents">
-      <div id="nav-sync" class="sync"></div>
-    </div>
-  </div>
-  <div id="splitbar" style="-moz-user-select:none;" 
-       class="ui-resizable-handle">
-  </div>
-</div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(function(){initNavTree('class_home_manager.html',''); initResizable(true); });
+$(function(){ initResizable(false); });
 /* @license-end */
 </script>
-<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -101,8 +88,14 @@ $(function(){initNavTree('class_home_manager.html',''); initResizable(true); });
 </div>
 </div>
 
+</div><!-- top -->
+<div id="doc-content">
 <div class="header">
   <div class="summary">
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-static-methods">Static Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="class_home_manager-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">HomeManager Class Reference</div></div>
 </div><!--header-->
@@ -110,27 +103,547 @@ $(function(){initNavTree('class_home_manager.html',''); initResizable(true); });
 
 <p>Manages the home screen display by calculating and animating the balance based on transactions.  
  <a href="#details">More...</a></p>
-<div class="dynheader">
-Inheritance diagram for HomeManager:</div>
-<div class="dyncontent">
- <div class="center">
-  <img src="class_home_manager.png" alt=""/>
- </div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a983c50a60b11e45ae5c33bd3029cd1e4" id="r_a983c50a60b11e45ae5c33bd3029cd1e4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a983c50a60b11e45ae5c33bd3029cd1e4">OnEnable</a> ()</td></tr>
+<tr class="memdesc:a983c50a60b11e45ae5c33bd3029cd1e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when the object becomes enabled and active. Retrieves transactions, calculates the balance, and starts the balance display animation.  <br /></td></tr>
+<tr class="separator:a983c50a60b11e45ae5c33bd3029cd1e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5ba0ab5f0d7c4dbc35ab94375f7c8b8" id="r_ac5ba0ab5f0d7c4dbc35ab94375f7c8b8"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_transaction.html">Transaction</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac5ba0ab5f0d7c4dbc35ab94375f7c8b8">AddRehearsalTrades</a> (List&lt; <a class="el" href="class_transaction.html">Transaction</a> &gt; transactions)</td></tr>
+<tr class="memdesc:ac5ba0ab5f0d7c4dbc35ab94375f7c8b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds rehearsal transactions to the provided list by generating future occurrences.  <br /></td></tr>
+<tr class="separator:ac5ba0ab5f0d7c4dbc35ab94375f7c8b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4826419e5d4976f6b94d9f96228eff9" id="r_af4826419e5d4976f6b94d9f96228eff9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_transaction.html">Transaction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af4826419e5d4976f6b94d9f96228eff9">GenerateTransaction</a> (<a class="el" href="class_transaction.html">Transaction</a> tradeToCopy, DateTime nextDate)</td></tr>
+<tr class="memdesc:af4826419e5d4976f6b94d9f96228eff9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Generates a transaction with the same attributes as the given one but with a new date.  <br /></td></tr>
+<tr class="separator:af4826419e5d4976f6b94d9f96228eff9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a74563f6ebb8f54409cfafd4ae934ee" id="r_a6a74563f6ebb8f54409cfafd4ae934ee"><td class="memItemLeft" align="right" valign="top">DateTime&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6a74563f6ebb8f54409cfafd4ae934ee">GetNextDate</a> (DateTime date, string periodicity)</td></tr>
+<tr class="memdesc:a6a74563f6ebb8f54409cfafd4ae934ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines the next occurrence date based on the given periodicity.  <br /></td></tr>
+<tr class="separator:a6a74563f6ebb8f54409cfafd4ae934ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2045255ae9f76d5abe8a1dacaaf49a47" id="r_a2045255ae9f76d5abe8a1dacaaf49a47"><td class="memItemLeft" align="right" valign="top">IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2045255ae9f76d5abe8a1dacaaf49a47">DisplayBalances</a> ()</td></tr>
+<tr class="memdesc:a2045255ae9f76d5abe8a1dacaaf49a47"><td class="mdescLeft">&#160;</td><td class="mdescRight">Animates the display of the final balance over a specified duration.  <br /></td></tr>
+<tr class="separator:a2045255ae9f76d5abe8a1dacaaf49a47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b12556d418a2d5638cb11678b389804" id="r_a7b12556d418a2d5638cb11678b389804"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7b12556d418a2d5638cb11678b389804">CalculateBalance</a> (List&lt; <a class="el" href="class_transaction.html">Transaction</a> &gt; transactions)</td></tr>
+<tr class="memdesc:a7b12556d418a2d5638cb11678b389804"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parses and processes transactions to compute the balance and provisional amount.  <br /></td></tr>
+<tr class="separator:a7b12556d418a2d5638cb11678b389804"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-methods" name="pri-static-methods"></a>
+Static Private Member Functions</h2></td></tr>
+<tr class="memitem:a4b25d88a4a8a1ef002966c897a18d312" id="r_a4b25d88a4a8a1ef002966c897a18d312"><td class="memItemLeft" align="right" valign="top">static DateTime&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4b25d88a4a8a1ef002966c897a18d312">GetLastDayOfCurrentMonth</a> ()</td></tr>
+<tr class="memdesc:a4b25d88a4a8a1ef002966c897a18d312"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parses a date string into a DateTime object based on predefined formats.  <br /></td></tr>
+<tr class="separator:a4b25d88a4a8a1ef002966c897a18d312"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:af7866fd8374b0de611a1c7307dc07dbc" id="r_af7866fd8374b0de611a1c7307dc07dbc"><td class="memItemLeft" align="right" valign="top">Color&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af7866fd8374b0de611a1c7307dc07dbc">positiveColor</a></td></tr>
+<tr class="memdesc:af7866fd8374b0de611a1c7307dc07dbc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Color used to display a positive balance.  <br /></td></tr>
+<tr class="separator:af7866fd8374b0de611a1c7307dc07dbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff46b0fc516fd56d8c4ee73b86ff41a3" id="r_aff46b0fc516fd56d8c4ee73b86ff41a3"><td class="memItemLeft" align="right" valign="top">Color&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aff46b0fc516fd56d8c4ee73b86ff41a3">negativeColor</a></td></tr>
+<tr class="memdesc:aff46b0fc516fd56d8c4ee73b86ff41a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Color used to display a negative balance.  <br /></td></tr>
+<tr class="separator:aff46b0fc516fd56d8c4ee73b86ff41a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a290c87c70a3a3a5efb020939a0217dc0" id="r_a290c87c70a3a3a5efb020939a0217dc0"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a290c87c70a3a3a5efb020939a0217dc0">duration</a> = 5f</td></tr>
+<tr class="memdesc:a290c87c70a3a3a5efb020939a0217dc0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Duration (in seconds) over which the balance is animated.  <br /></td></tr>
+<tr class="separator:a290c87c70a3a3a5efb020939a0217dc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a099ca9214e6f5eea3397d8c22f1c692c" id="r_a099ca9214e6f5eea3397d8c22f1c692c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_database_manager.html">DatabaseManager</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a099ca9214e6f5eea3397d8c22f1c692c">databaseManager</a></td></tr>
+<tr class="memdesc:a099ca9214e6f5eea3397d8c22f1c692c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reference to the <a class="el" href="class_database_manager.html" title="Manages the SQLite database used for storing transactions and recurring trades.">DatabaseManager</a> for retrieving transaction data.  <br /></td></tr>
+<tr class="separator:a099ca9214e6f5eea3397d8c22f1c692c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac576c06bb477adf6f0ce9b3ca1999890" id="r_ac576c06bb477adf6f0ce9b3ca1999890"><td class="memItemLeft" align="right" valign="top">TextMeshProUGUI&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac576c06bb477adf6f0ce9b3ca1999890">amountText</a></td></tr>
+<tr class="memdesc:ac576c06bb477adf6f0ce9b3ca1999890"><td class="mdescLeft">&#160;</td><td class="mdescRight">Text component for displaying the balance amount.  <br /></td></tr>
+<tr class="separator:ac576c06bb477adf6f0ce9b3ca1999890"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b13c8207fa843cc90a89f2215fbc210" id="r_a3b13c8207fa843cc90a89f2215fbc210"><td class="memItemLeft" align="right" valign="top">TextMeshProUGUI&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3b13c8207fa843cc90a89f2215fbc210">monthProvisionalAmountText</a></td></tr>
+<tr class="memdesc:a3b13c8207fa843cc90a89f2215fbc210"><td class="mdescLeft">&#160;</td><td class="mdescRight">Text component for displaying the month provisional amount.  <br /></td></tr>
+<tr class="separator:a3b13c8207fa843cc90a89f2215fbc210"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38a7e84fa7c410ed5c83bf3e0d89ed98" id="r_a38a7e84fa7c410ed5c83bf3e0d89ed98"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a38a7e84fa7c410ed5c83bf3e0d89ed98">_balance</a></td></tr>
+<tr class="memdesc:a38a7e84fa7c410ed5c83bf3e0d89ed98"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stores the total calculated balance.  <br /></td></tr>
+<tr class="separator:a38a7e84fa7c410ed5c83bf3e0d89ed98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a6c89ef2b2c5829d8756ee3259399f0" id="r_a5a6c89ef2b2c5829d8756ee3259399f0"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5a6c89ef2b2c5829d8756ee3259399f0">_provisionalAmount</a></td></tr>
+<tr class="memdesc:a5a6c89ef2b2c5829d8756ee3259399f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stores the provisional amount for the current month.  <br /></td></tr>
+<tr class="separator:a5a6c89ef2b2c5829d8756ee3259399f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:a311685e27a6e830c442add8052c0c143" id="r_a311685e27a6e830c442add8052c0c143"><td class="memItemLeft" align="right" valign="top">static readonly CultureInfo&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a311685e27a6e830c442add8052c0c143">FrenchCulture</a> = new CultureInfo(&quot;fr-FR&quot;)</td></tr>
+<tr class="memdesc:a311685e27a6e830c442add8052c0c143"><td class="mdescLeft">&#160;</td><td class="mdescRight">The CultureInfo for French culture, used for date formatting.  <br /></td></tr>
+<tr class="separator:a311685e27a6e830c442add8052c0c143"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad91cb116a5cf0592a258983c20ab8ea4" id="r_ad91cb116a5cf0592a258983c20ab8ea4"><td class="memItemLeft" align="right" valign="top">static readonly string[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad91cb116a5cf0592a258983c20ab8ea4">DateFormats</a> = { &quot;dddd dd MMMM yyyy&quot;, &quot;dddd d MMMM yyyy&quot; }</td></tr>
+<tr class="memdesc:ad91cb116a5cf0592a258983c20ab8ea4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Supported date formats for parsing transaction dates.  <br /></td></tr>
+<tr class="separator:ad91cb116a5cf0592a258983c20ab8ea4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Manages the home screen display by calculating and animating the balance based on transactions. </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="ac5ba0ab5f0d7c4dbc35ab94375f7c8b8" name="ac5ba0ab5f0d7c4dbc35ab94375f7c8b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac5ba0ab5f0d7c4dbc35ab94375f7c8b8">&#9670;&#160;</a></span>AddRehearsalTrades()</h2>
 
-<p class="definition">Definition at line <a class="el" href="_home_manager_8cs_source.html#l00011">11</a> of file <a class="el" href="_home_manager_8cs_source.html">HomeManager.cs</a>.</p>
-</div><hr/>The documentation for this class was generated from the following file:<ul>
-<li>C:/Users/Thomas/Videos/Projets_Unity/BudgetApp/Assets/Scripts/<a class="el" href="_home_manager_8cs_source.html">HomeManager.cs</a></li>
-</ul>
-</div><!-- contents -->
-</div><!-- doc-content -->
-<!-- start footer part -->
-<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
-  <ul>
-    <li class="navelem"><a class="el" href="class_home_manager.html">HomeManager</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
-  </ul>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt; <a class="el" href="class_transaction.html">Transaction</a> &gt; HomeManager.AddRehearsalTrades </td>
+          <td>(</td>
+          <td class="paramtype">List&lt; <a class="el" href="class_transaction.html">Transaction</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>transactions</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Adds rehearsal transactions to the provided list by generating future occurrences. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">transactions</td><td>The initial list of transactions.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The updated list of transactions including rehearsals.</dd></dl>
+
 </div>
+</div>
+<a id="a7b12556d418a2d5638cb11678b389804" name="a7b12556d418a2d5638cb11678b389804"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b12556d418a2d5638cb11678b389804">&#9670;&#160;</a></span>CalculateBalance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void HomeManager.CalculateBalance </td>
+          <td>(</td>
+          <td class="paramtype">List&lt; <a class="el" href="class_transaction.html">Transaction</a> &gt;</td>          <td class="paramname"><span class="paramname"><em>transactions</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Parses and processes transactions to compute the balance and provisional amount. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">transactions</td><td>List of transactions to process.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a2045255ae9f76d5abe8a1dacaaf49a47" name="a2045255ae9f76d5abe8a1dacaaf49a47"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2045255ae9f76d5abe8a1dacaaf49a47">&#9670;&#160;</a></span>DisplayBalances()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">IEnumerator HomeManager.DisplayBalances </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Animates the display of the final balance over a specified duration. </p>
+<dl class="section return"><dt>Returns</dt><dd>An IEnumerator used for coroutine control.</dd></dl>
+
+</div>
+</div>
+<a id="af4826419e5d4976f6b94d9f96228eff9" name="af4826419e5d4976f6b94d9f96228eff9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4826419e5d4976f6b94d9f96228eff9">&#9670;&#160;</a></span>GenerateTransaction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_transaction.html">Transaction</a> HomeManager.GenerateTransaction </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_transaction.html">Transaction</a></td>          <td class="paramname"><span class="paramname"><em>tradeToCopy</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">DateTime</td>          <td class="paramname"><span class="paramname"><em>nextDate</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Generates a transaction with the same attributes as the given one but with a new date. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">tradeToCopy</td><td>The transaction to copy.</td></tr>
+    <tr><td class="paramname">nextDate</td><td>The new date for the generated transaction.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A new transaction instance with updated date and description.</dd></dl>
+
+</div>
+</div>
+<a id="a4b25d88a4a8a1ef002966c897a18d312" name="a4b25d88a4a8a1ef002966c897a18d312"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b25d88a4a8a1ef002966c897a18d312">&#9670;&#160;</a></span>GetLastDayOfCurrentMonth()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static DateTime HomeManager.GetLastDayOfCurrentMonth </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Parses a date string into a DateTime object based on predefined formats. </p>
+<dl class="section return"><dt>Returns</dt><dd>The last day of the current month.</dd></dl>
+
+</div>
+</div>
+<a id="a6a74563f6ebb8f54409cfafd4ae934ee" name="a6a74563f6ebb8f54409cfafd4ae934ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a74563f6ebb8f54409cfafd4ae934ee">&#9670;&#160;</a></span>GetNextDate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">DateTime HomeManager.GetNextDate </td>
+          <td>(</td>
+          <td class="paramtype">DateTime</td>          <td class="paramname"><span class="paramname"><em>date</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>periodicity</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Determines the next occurrence date based on the given periodicity. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">date</td><td>The starting date.</td></tr>
+    <tr><td class="paramname">periodicity</td><td>The recurrence period ("Day", "Week", "Month", "Year").</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The computed next occurrence date.</dd></dl>
+
+</div>
+</div>
+<a id="a983c50a60b11e45ae5c33bd3029cd1e4" name="a983c50a60b11e45ae5c33bd3029cd1e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a983c50a60b11e45ae5c33bd3029cd1e4">&#9670;&#160;</a></span>OnEnable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void HomeManager.OnEnable </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Called when the object becomes enabled and active. Retrieves transactions, calculates the balance, and starts the balance display animation. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a38a7e84fa7c410ed5c83bf3e0d89ed98" name="a38a7e84fa7c410ed5c83bf3e0d89ed98"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a38a7e84fa7c410ed5c83bf3e0d89ed98">&#9670;&#160;</a></span>_balance</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float HomeManager._balance</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Stores the total calculated balance. </p>
+
+</div>
+</div>
+<a id="a5a6c89ef2b2c5829d8756ee3259399f0" name="a5a6c89ef2b2c5829d8756ee3259399f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a6c89ef2b2c5829d8756ee3259399f0">&#9670;&#160;</a></span>_provisionalAmount</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float HomeManager._provisionalAmount</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Stores the provisional amount for the current month. </p>
+
+</div>
+</div>
+<a id="ac576c06bb477adf6f0ce9b3ca1999890" name="ac576c06bb477adf6f0ce9b3ca1999890"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac576c06bb477adf6f0ce9b3ca1999890">&#9670;&#160;</a></span>amountText</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">TextMeshProUGUI HomeManager.amountText</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Text component for displaying the balance amount. </p>
+
+</div>
+</div>
+<a id="a099ca9214e6f5eea3397d8c22f1c692c" name="a099ca9214e6f5eea3397d8c22f1c692c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a099ca9214e6f5eea3397d8c22f1c692c">&#9670;&#160;</a></span>databaseManager</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_database_manager.html">DatabaseManager</a> HomeManager.databaseManager</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reference to the <a class="el" href="class_database_manager.html" title="Manages the SQLite database used for storing transactions and recurring trades.">DatabaseManager</a> for retrieving transaction data. </p>
+
+</div>
+</div>
+<a id="ad91cb116a5cf0592a258983c20ab8ea4" name="ad91cb116a5cf0592a258983c20ab8ea4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad91cb116a5cf0592a258983c20ab8ea4">&#9670;&#160;</a></span>DateFormats</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly string [] HomeManager.DateFormats = { &quot;dddd dd MMMM yyyy&quot;, &quot;dddd d MMMM yyyy&quot; }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Supported date formats for parsing transaction dates. </p>
+
+</div>
+</div>
+<a id="a290c87c70a3a3a5efb020939a0217dc0" name="a290c87c70a3a3a5efb020939a0217dc0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a290c87c70a3a3a5efb020939a0217dc0">&#9670;&#160;</a></span>duration</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float HomeManager.duration = 5f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Duration (in seconds) over which the balance is animated. </p>
+
+</div>
+</div>
+<a id="a311685e27a6e830c442add8052c0c143" name="a311685e27a6e830c442add8052c0c143"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a311685e27a6e830c442add8052c0c143">&#9670;&#160;</a></span>FrenchCulture</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly CultureInfo HomeManager.FrenchCulture = new CultureInfo(&quot;fr-FR&quot;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The CultureInfo for French culture, used for date formatting. </p>
+
+</div>
+</div>
+<a id="a3b13c8207fa843cc90a89f2215fbc210" name="a3b13c8207fa843cc90a89f2215fbc210"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b13c8207fa843cc90a89f2215fbc210">&#9670;&#160;</a></span>monthProvisionalAmountText</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">TextMeshProUGUI HomeManager.monthProvisionalAmountText</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Text component for displaying the month provisional amount. </p>
+
+</div>
+</div>
+<a id="aff46b0fc516fd56d8c4ee73b86ff41a3" name="aff46b0fc516fd56d8c4ee73b86ff41a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff46b0fc516fd56d8c4ee73b86ff41a3">&#9670;&#160;</a></span>negativeColor</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Color HomeManager.negativeColor</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Color used to display a negative balance. </p>
+
+</div>
+</div>
+<a id="af7866fd8374b0de611a1c7307dc07dbc" name="af7866fd8374b0de611a1c7307dc07dbc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af7866fd8374b0de611a1c7307dc07dbc">&#9670;&#160;</a></span>positiveColor</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Color HomeManager.positiveColor</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Color used to display a positive balance. </p>
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2
+</small></address>
+</div><!-- doc-content -->
 </body>
 </html>

@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['date_0',['date',['../class_transaction.html#a4cbbee36db392ed6f834b105ee6008d0',1,'Transaction']]],
-  ['describe_1',['describe',['../class_transaction.html#a92f49c6ce143f9f6c77563f6b1322d0a',1,'Transaction']]]
+  ['balanceamounttext_0',['balanceAmountText',['../class_stats_manager.html#a1026d1e08fe5c56c0714e340d53496a5',1,'StatsManager']]]
 ];

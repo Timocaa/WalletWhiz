@@ -5,14 +5,12 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.13.2"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>My Project: CategoryManager Class Reference</title>
+<title>WalletWiz: CategoryManager Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
 <script type="text/javascript" src="clipboard.js"></script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript" src="navtreedata.js"></script>
-<script type="text/javascript" src="navtree.js"></script>
 <script type="text/javascript" src="resize.js"></script>
 <script type="text/javascript" src="cookie.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
@@ -31,8 +29,9 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="Logo_192x192.png"/></td>
   <td id="projectalign">
-   <div id="projectname">My Project
+   <div id="projectname">WalletWiz<span id="projectnumber">&#160;V1.0</span>
    </div>
   </td>
     <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -63,23 +62,11 @@ var searchBox = new SearchBox("searchBox", "search/",'.html');
 $(function() { codefold.init(0); });
 /* @license-end */
 </script>
-</div><!-- top -->
-<div id="side-nav" class="ui-resizable side-nav-resizable">
-  <div id="nav-tree">
-    <div id="nav-tree-contents">
-      <div id="nav-sync" class="sync"></div>
-    </div>
-  </div>
-  <div id="splitbar" style="-moz-user-select:none;" 
-       class="ui-resizable-handle">
-  </div>
-</div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(function(){initNavTree('class_category_manager.html',''); initResizable(true); });
+$(function(){ initResizable(false); });
 /* @license-end */
 </script>
-<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -101,9 +88,13 @@ $(function(){initNavTree('class_category_manager.html',''); initResizable(true);
 </div>
 </div>
 
+</div><!-- top -->
+<div id="doc-content">
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_category_manager-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">CategoryManager Class Reference</div></div>
 </div><!--header-->
@@ -111,12 +102,6 @@ $(function(){initNavTree('class_category_manager.html',''); initResizable(true);
 
 <p>Manages the category UI, including displaying, adding, updating, and removing categories.  
  <a href="#details">More...</a></p>
-<div class="dynheader">
-Inheritance diagram for CategoryManager:</div>
-<div class="dyncontent">
- <div class="center">
-  <img src="class_category_manager.png" alt=""/>
- </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -135,20 +120,51 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a2323fa4544912ed8dd8195237dec747d" id="r_a2323fa4544912ed8dd8195237dec747d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2323fa4544912ed8dd8195237dec747d">ModifyCategory</a> (string oldCategory)</td></tr>
 <tr class="memdesc:a2323fa4544912ed8dd8195237dec747d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Opens the modification panel pre-populated with the existing category data.  <br /></td></tr>
 <tr class="separator:a2323fa4544912ed8dd8195237dec747d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a0a0ebef4dc5046c066ce458db083e250" id="r_a0a0ebef4dc5046c066ce458db083e250"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a0a0ebef4dc5046c066ce458db083e250">OnEnable</a> ()</td></tr>
+<tr class="memdesc:a0a0ebef4dc5046c066ce458db083e250"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when the GameObject becomes enabled and active. Initializes the internal category list, sorts the category data, and displays the categories.  <br /></td></tr>
+<tr class="separator:a0a0ebef4dc5046c066ce458db083e250"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad767db71eea07726757243aa0df13b69" id="r_ad767db71eea07726757243aa0df13b69"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad767db71eea07726757243aa0df13b69">OnDisable</a> ()</td></tr>
+<tr class="memdesc:ad767db71eea07726757243aa0df13b69"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when the GameObject becomes disabled or inactive. Clears all displayed category items.  <br /></td></tr>
+<tr class="separator:ad767db71eea07726757243aa0df13b69"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec8f2bf600c735a3d99e2e4b6ef9e627" id="r_aec8f2bf600c735a3d99e2e4b6ef9e627"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aec8f2bf600c735a3d99e2e4b6ef9e627">DisplayCategories</a> ()</td></tr>
+<tr class="memdesc:aec8f2bf600c735a3d99e2e4b6ef9e627"><td class="mdescLeft">&#160;</td><td class="mdescRight">Instantiates and displays a category line for each category in the list.  <br /></td></tr>
+<tr class="separator:aec8f2bf600c735a3d99e2e4b6ef9e627"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6517bc19bc53c009cb4548db73d82e3a" id="r_a6517bc19bc53c009cb4548db73d82e3a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6517bc19bc53c009cb4548db73d82e3a">ResetData</a> ()</td></tr>
+<tr class="memdesc:a6517bc19bc53c009cb4548db73d82e3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys all instantiated category line GameObjects and clears the internal list.  <br /></td></tr>
+<tr class="separator:a6517bc19bc53c009cb4548db73d82e3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac4e4e03c518a2ee7de7aaa01aaddfc9" id="r_aac4e4e03c518a2ee7de7aaa01aaddfc9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aac4e4e03c518a2ee7de7aaa01aaddfc9">UpdateDisplay</a> ()</td></tr>
+<tr class="memdesc:aac4e4e03c518a2ee7de7aaa01aaddfc9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reloads category data and updates the UI display.  <br /></td></tr>
+<tr class="separator:aac4e4e03c518a2ee7de7aaa01aaddfc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a70687fa08df7bd8eccece3aafaacfbc4" id="r_a70687fa08df7bd8eccece3aafaacfbc4"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a70687fa08df7bd8eccece3aafaacfbc4">gridPanel</a></td></tr>
+<tr class="memdesc:a70687fa08df7bd8eccece3aafaacfbc4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Panel that holds the list of category items.  <br /></td></tr>
+<tr class="separator:a70687fa08df7bd8eccece3aafaacfbc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2af8b5ffd725746ea059df575996be5e" id="r_a2af8b5ffd725746ea059df575996be5e"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2af8b5ffd725746ea059df575996be5e">categoryLine</a></td></tr>
+<tr class="memdesc:a2af8b5ffd725746ea059df575996be5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prefab for an individual category line.  <br /></td></tr>
+<tr class="separator:a2af8b5ffd725746ea059df575996be5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a496cdc48193d077e9ad06695405311" id="r_a4a496cdc48193d077e9ad06695405311"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4a496cdc48193d077e9ad06695405311">changeCategoryPanel</a></td></tr>
+<tr class="memdesc:a4a496cdc48193d077e9ad06695405311"><td class="mdescLeft">&#160;</td><td class="mdescRight">Panel used for adding or modifying a category.  <br /></td></tr>
+<tr class="separator:a4a496cdc48193d077e9ad06695405311"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5798589ae03ae343e9ae87137e51d4b" id="r_ae5798589ae03ae343e9ae87137e51d4b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_category_list_manager.html">CategoryListManager</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae5798589ae03ae343e9ae87137e51d4b">categoryListManager</a></td></tr>
+<tr class="memdesc:ae5798589ae03ae343e9ae87137e51d4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Manager that handles loading and maintaining category data.  <br /></td></tr>
+<tr class="separator:ae5798589ae03ae343e9ae87137e51d4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad92c2ebc6e5ff090821a38bdefd6f723" id="r_ad92c2ebc6e5ff090821a38bdefd6f723"><td class="memItemLeft" align="right" valign="top">List&lt; GameObject &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad92c2ebc6e5ff090821a38bdefd6f723">_categoryList</a></td></tr>
+<tr class="memdesc:ad92c2ebc6e5ff090821a38bdefd6f723"><td class="mdescLeft">&#160;</td><td class="mdescRight">List that stores instantiated category line GameObjects.  <br /></td></tr>
+<tr class="separator:ad92c2ebc6e5ff090821a38bdefd6f723"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Manages the category UI, including displaying, adding, updating, and removing categories. </p>
-
-<p class="definition">Definition at line <a class="el" href="_category_manager_8cs_source.html#l00008">8</a> of file <a class="el" href="_category_manager_8cs_source.html">CategoryManager.cs</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a3bedf4fdbe405aeae865884dd9924504" name="a3bedf4fdbe405aeae865884dd9924504"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3bedf4fdbe405aeae865884dd9924504">&#9670;&#160;</a></span>AddCategory()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void CategoryManager.AddCategory </td>
@@ -157,28 +173,14 @@ Public Member Functions</h2></td></tr>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Opens the panel for adding a new category. Deselects any currently selected UI element. </p>
 
-<p class="definition">Definition at line <a class="el" href="_category_manager_8cs_source.html#l00125">125</a> of file <a class="el" href="_category_manager_8cs_source.html">CategoryManager.cs</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  126</span>    {</div>
-<div class="line"><span class="lineno">  127</span>        <span class="comment">// Clear the current UI selection.</span></div>
-<div class="line"><span class="lineno">  128</span>        <span class="keywordflow">if</span> (EventSystem.current != <span class="keyword">null</span>)</div>
-<div class="line"><span class="lineno">  129</span>            EventSystem.current.SetSelectedGameObject(<span class="keyword">null</span>);</div>
-<div class="line"><span class="lineno">  130</span>        <span class="comment">// Activate the panel for category changes (adding/modifying).</span></div>
-<div class="line"><span class="lineno">  131</span>        changeCategoryPanel.SetActive(<span class="keyword">true</span>);</div>
-<div class="line"><span class="lineno">  132</span>    }</div>
-</div><!-- fragment -->
 </div>
 </div>
-<a id="a2323fa4544912ed8dd8195237dec747d" name="a2323fa4544912ed8dd8195237dec747d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2323fa4544912ed8dd8195237dec747d">&#9670;&#160;</a></span>ModifyCategory()</h2>
+<a id="aec8f2bf600c735a3d99e2e4b6ef9e627" name="aec8f2bf600c735a3d99e2e4b6ef9e627"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec8f2bf600c735a3d99e2e4b6ef9e627">&#9670;&#160;</a></span>DisplayCategories()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -187,17 +189,36 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
+          <td class="memname">void CategoryManager.DisplayCategories </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Instantiates and displays a category line for each category in the list. </p>
+
+</div>
+</div>
+<a id="a2323fa4544912ed8dd8195237dec747d" name="a2323fa4544912ed8dd8195237dec747d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2323fa4544912ed8dd8195237dec747d">&#9670;&#160;</a></span>ModifyCategory()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
           <td class="memname">void CategoryManager.ModifyCategory </td>
           <td>(</td>
           <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>oldCategory</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Opens the modification panel pre-populated with the existing category data. </p>
@@ -208,22 +229,10 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="_category_manager_8cs_source.html#l00176">176</a> of file <a class="el" href="_category_manager_8cs_source.html">CategoryManager.cs</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  177</span>    {</div>
-<div class="line"><span class="lineno">  178</span>        <span class="comment">// Activate the panel used for modifying categories.</span></div>
-<div class="line"><span class="lineno">  179</span>        changeCategoryPanel.SetActive(<span class="keyword">true</span>);</div>
-<div class="line"><span class="lineno">  180</span>        <span class="comment">// Get the ChangeCategoryManager component from the change category panel.</span></div>
-<div class="line"><span class="lineno">  181</span>        ChangeCategoryManager changeCategoryManager = changeCategoryPanel.GetComponent&lt;ChangeCategoryManager&gt;();</div>
-<div class="line"><span class="lineno">  182</span>        <span class="comment">// If the ChangeCategoryManager component is found, populate it with the current category.</span></div>
-<div class="line"><span class="lineno">  183</span>        <span class="keywordflow">if</span> (changeCategoryPanel != <span class="keyword">null</span>)</div>
-<div class="line"><span class="lineno">  184</span>            changeCategoryManager.<a class="code hl_function" href="class_change_category_manager.html#a99bd2e4dca777f599c35183976ef5ef8">SetCategory</a>(oldCategory);</div>
-<div class="line"><span class="lineno">  185</span>    }</div>
-<div class="ttc" id="aclass_change_category_manager_html_a99bd2e4dca777f599c35183976ef5ef8"><div class="ttname"><a href="class_change_category_manager.html#a99bd2e4dca777f599c35183976ef5ef8">ChangeCategoryManager.SetCategory</a></div><div class="ttdeci">void SetCategory(string category)</div><div class="ttdoc">Pre-populates the input field with the provided category and stores it as the current category.</div><div class="ttdef"><b>Definition</b> <a href="_change_category_manager_8cs_source.html#l00082">ChangeCategoryManager.cs:82</a></div></div>
-</div><!-- fragment -->
 </div>
 </div>
-<a id="aca5af816c74ba4316e1da68bb6ac021a" name="aca5af816c74ba4316e1da68bb6ac021a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aca5af816c74ba4316e1da68bb6ac021a">&#9670;&#160;</a></span>RecordNewCategory()</h2>
+<a id="ad767db71eea07726757243aa0df13b69" name="ad767db71eea07726757243aa0df13b69"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad767db71eea07726757243aa0df13b69">&#9670;&#160;</a></span>OnDisable()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -232,17 +241,63 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
+          <td class="memname">void CategoryManager.OnDisable </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Called when the GameObject becomes disabled or inactive. Clears all displayed category items. </p>
+
+</div>
+</div>
+<a id="a0a0ebef4dc5046c066ce458db083e250" name="a0a0ebef4dc5046c066ce458db083e250"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a0ebef4dc5046c066ce458db083e250">&#9670;&#160;</a></span>OnEnable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CategoryManager.OnEnable </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Called when the GameObject becomes enabled and active. Initializes the internal category list, sorts the category data, and displays the categories. </p>
+
+</div>
+</div>
+<a id="aca5af816c74ba4316e1da68bb6ac021a" name="aca5af816c74ba4316e1da68bb6ac021a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca5af816c74ba4316e1da68bb6ac021a">&#9670;&#160;</a></span>RecordNewCategory()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
           <td class="memname">void CategoryManager.RecordNewCategory </td>
           <td>(</td>
           <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>category</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Adds a new category to the list and updates the display. </p>
@@ -253,14 +308,6 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="_category_manager_8cs_source.html#l00138">138</a> of file <a class="el" href="_category_manager_8cs_source.html">CategoryManager.cs</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  139</span>    {</div>
-<div class="line"><span class="lineno">  140</span>        <span class="comment">// Add the new category using the category list manager.</span></div>
-<div class="line"><span class="lineno">  141</span>        categoryListManager.AddCategory(category);</div>
-<div class="line"><span class="lineno">  142</span>        <span class="comment">// Refresh the display with the updated category list.</span></div>
-<div class="line"><span class="lineno">  143</span>        UpdateDisplay();</div>
-<div class="line"><span class="lineno">  144</span>    }</div>
-</div><!-- fragment -->
 </div>
 </div>
 <a id="ad8861a51b22fcb28fce001a407953b78" name="ad8861a51b22fcb28fce001a407953b78"></a>
@@ -268,9 +315,6 @@ Public Member Functions</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void CategoryManager.RemoveCategory </td>
@@ -283,11 +327,6 @@ Public Member Functions</h2></td></tr>
           <td class="paramtype">GameObject</td>          <td class="paramname"><span class="paramname"><em>category</em></span>&#160;)</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Removes a specified category and updates the display. </p>
@@ -299,14 +338,33 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="_category_manager_8cs_source.html#l00164">164</a> of file <a class="el" href="_category_manager_8cs_source.html">CategoryManager.cs</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  165</span>    {</div>
-<div class="line"><span class="lineno">  166</span>        <span class="comment">// Remove the category from the category list manager.</span></div>
-<div class="line"><span class="lineno">  167</span>        categoryListManager.RemoveCategory(categoryName);</div>
-<div class="line"><span class="lineno">  168</span>        <span class="comment">// Refresh the display to reflect the removal.</span></div>
-<div class="line"><span class="lineno">  169</span>        UpdateDisplay();</div>
-<div class="line"><span class="lineno">  170</span>    }</div>
-</div><!-- fragment -->
+</div>
+</div>
+<a id="a6517bc19bc53c009cb4548db73d82e3a" name="a6517bc19bc53c009cb4548db73d82e3a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6517bc19bc53c009cb4548db73d82e3a">&#9670;&#160;</a></span>ResetData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CategoryManager.ResetData </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Destroys all instantiated category line GameObjects and clears the internal list. </p>
+
 </div>
 </div>
 <a id="a38802082296d37b9ebfa3088a6c4602b" name="a38802082296d37b9ebfa3088a6c4602b"></a>
@@ -314,9 +372,6 @@ Public Member Functions</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void CategoryManager.UpdateCategory </td>
@@ -329,11 +384,6 @@ Public Member Functions</h2></td></tr>
           <td class="paramtype">string</td>          <td class="paramname"><span class="paramname"><em>newCategory</em></span>&#160;)</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Updates an existing category with a new name and refreshes the display. </p>
@@ -345,27 +395,161 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="_category_manager_8cs_source.html#l00151">151</a> of file <a class="el" href="_category_manager_8cs_source.html">CategoryManager.cs</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  152</span>    {</div>
-<div class="line"><span class="lineno">  153</span>        <span class="comment">// Update the category in the category list manager.</span></div>
-<div class="line"><span class="lineno">  154</span>        categoryListManager.UpdateCategory(oldCategory, newCategory);</div>
-<div class="line"><span class="lineno">  155</span>        <span class="comment">// Refresh the category display.</span></div>
-<div class="line"><span class="lineno">  156</span>        UpdateDisplay();</div>
-<div class="line"><span class="lineno">  157</span>    }</div>
-</div><!-- fragment -->
 </div>
 </div>
-<hr/>The documentation for this class was generated from the following file:<ul>
-<li>C:/Users/Thomas/Videos/Projets_Unity/BudgetApp/Assets/Scripts/Category/<a class="el" href="_category_manager_8cs_source.html">CategoryManager.cs</a></li>
-</ul>
+<a id="aac4e4e03c518a2ee7de7aaa01aaddfc9" name="aac4e4e03c518a2ee7de7aaa01aaddfc9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac4e4e03c518a2ee7de7aaa01aaddfc9">&#9670;&#160;</a></span>UpdateDisplay()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CategoryManager.UpdateDisplay </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reloads category data and updates the UI display. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="ad92c2ebc6e5ff090821a38bdefd6f723" name="ad92c2ebc6e5ff090821a38bdefd6f723"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad92c2ebc6e5ff090821a38bdefd6f723">&#9670;&#160;</a></span>_categoryList</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;GameObject&gt; CategoryManager._categoryList</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>List that stores instantiated category line GameObjects. </p>
+
+</div>
+</div>
+<a id="a2af8b5ffd725746ea059df575996be5e" name="a2af8b5ffd725746ea059df575996be5e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2af8b5ffd725746ea059df575996be5e">&#9670;&#160;</a></span>categoryLine</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject CategoryManager.categoryLine</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Prefab for an individual category line. </p>
+
+</div>
+</div>
+<a id="ae5798589ae03ae343e9ae87137e51d4b" name="ae5798589ae03ae343e9ae87137e51d4b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5798589ae03ae343e9ae87137e51d4b">&#9670;&#160;</a></span>categoryListManager</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_category_list_manager.html">CategoryListManager</a> CategoryManager.categoryListManager</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Manager that handles loading and maintaining category data. </p>
+
+</div>
+</div>
+<a id="a4a496cdc48193d077e9ad06695405311" name="a4a496cdc48193d077e9ad06695405311"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a496cdc48193d077e9ad06695405311">&#9670;&#160;</a></span>changeCategoryPanel</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject CategoryManager.changeCategoryPanel</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Panel used for adding or modifying a category. </p>
+
+</div>
+</div>
+<a id="a70687fa08df7bd8eccece3aafaacfbc4" name="a70687fa08df7bd8eccece3aafaacfbc4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a70687fa08df7bd8eccece3aafaacfbc4">&#9670;&#160;</a></span>gridPanel</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject CategoryManager.gridPanel</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Panel that holds the list of category items. </p>
+
+</div>
+</div>
 </div><!-- contents -->
-</div><!-- doc-content -->
 <!-- start footer part -->
-<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
-  <ul>
-    <li class="navelem"><a class="el" href="class_category_manager.html">CategoryManager</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
-  </ul>
-</div>
+<hr class="footer"/><address class="footer"><small>
+Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2
+</small></address>
+</div><!-- doc-content -->
 </body>
 </html>

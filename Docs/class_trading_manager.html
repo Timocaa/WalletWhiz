@@ -5,14 +5,12 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.13.2"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>My Project: TradingManager Class Reference</title>
+<title>WalletWiz: TradingManager Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
 <script type="text/javascript" src="clipboard.js"></script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
-<script type="text/javascript" src="navtreedata.js"></script>
-<script type="text/javascript" src="navtree.js"></script>
 <script type="text/javascript" src="resize.js"></script>
 <script type="text/javascript" src="cookie.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
@@ -31,8 +29,9 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="Logo_192x192.png"/></td>
   <td id="projectalign">
-   <div id="projectname">My Project
+   <div id="projectname">WalletWiz<span id="projectnumber">&#160;V1.0</span>
    </div>
   </td>
     <td>        <div id="MSearchBox" class="MSearchBoxInactive">
@@ -63,23 +62,11 @@ var searchBox = new SearchBox("searchBox", "search/",'.html');
 $(function() { codefold.init(0); });
 /* @license-end */
 </script>
-</div><!-- top -->
-<div id="side-nav" class="ui-resizable side-nav-resizable">
-  <div id="nav-tree">
-    <div id="nav-tree-contents">
-      <div id="nav-sync" class="sync"></div>
-    </div>
-  </div>
-  <div id="splitbar" style="-moz-user-select:none;" 
-       class="ui-resizable-handle">
-  </div>
-</div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
-$(function(){initNavTree('class_trading_manager.html',''); initResizable(true); });
+$(function(){ initResizable(false); });
 /* @license-end */
 </script>
-<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -101,9 +88,14 @@ $(function(){initNavTree('class_trading_manager.html',''); initResizable(true); 
 </div>
 </div>
 
+</div><!-- top -->
+<div id="doc-content">
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="class_trading_manager-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">TradingManager Class Reference</div></div>
 </div><!--header-->
@@ -111,12 +103,6 @@ $(function(){initNavTree('class_trading_manager.html',''); initResizable(true); 
 
 <p>Manages the trading form for recording new transactions, including recurring transactions.  
  <a href="#details">More...</a></p>
-<div class="dynheader">
-Inheritance diagram for TradingManager:</div>
-<div class="dyncontent">
- <div class="center">
-  <img src="class_trading_manager.png" alt=""/>
- </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -129,20 +115,78 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a567c374e71906cfdef78f8c834d48c2b" id="r_a567c374e71906cfdef78f8c834d48c2b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a567c374e71906cfdef78f8c834d48c2b">NextButton</a> ()</td></tr>
 <tr class="memdesc:a567c374e71906cfdef78f8c834d48c2b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Advances to the trading list panel by resetting the form, activating the list panel, and deactivating the current panel.  <br /></td></tr>
 <tr class="separator:a567c374e71906cfdef78f8c834d48c2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a7e2eddb35d3d697b51b9b2b1efe75c56" id="r_a7e2eddb35d3d697b51b9b2b1efe75c56"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7e2eddb35d3d697b51b9b2b1efe75c56">OnEnable</a> ()</td></tr>
+<tr class="memdesc:a7e2eddb35d3d697b51b9b2b1efe75c56"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when the object becomes enabled and active. Resets the trading form panel.  <br /></td></tr>
+<tr class="separator:a7e2eddb35d3d697b51b9b2b1efe75c56"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11715a51a9d9afcbf5de9a33f85a5b27" id="r_a11715a51a9d9afcbf5de9a33f85a5b27"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a11715a51a9d9afcbf5de9a33f85a5b27">OnDisable</a> ()</td></tr>
+<tr class="memdesc:a11715a51a9d9afcbf5de9a33f85a5b27"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when the object becomes disabled or inactive. Resets the trading form panel.  <br /></td></tr>
+<tr class="separator:a11715a51a9d9afcbf5de9a33f85a5b27"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5a83fcc5d47d4eeb88d432972ad46c1" id="r_ac5a83fcc5d47d4eeb88d432972ad46c1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac5a83fcc5d47d4eeb88d432972ad46c1">InitCategoryList</a> ()</td></tr>
+<tr class="memdesc:ac5a83fcc5d47d4eeb88d432972ad46c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the category dropdown list by loading available categories.  <br /></td></tr>
+<tr class="separator:ac5a83fcc5d47d4eeb88d432972ad46c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f07b516a90f98194274a9e1c80a9501" id="r_a4f07b516a90f98194274a9e1c80a9501"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a4f07b516a90f98194274a9e1c80a9501">ResetPanel</a> ()</td></tr>
+<tr class="memdesc:a4f07b516a90f98194274a9e1c80a9501"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resets the trading form panel to its default state.  <br /></td></tr>
+<tr class="separator:a4f07b516a90f98194274a9e1c80a9501"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1e8143de8b0cb0d51936f262096b953" id="r_aa1e8143de8b0cb0d51936f262096b953"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa1e8143de8b0cb0d51936f262096b953">FormIsFull</a> ()</td></tr>
+<tr class="memdesc:aa1e8143de8b0cb0d51936f262096b953"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks whether the trading form is completely filled. Also adjusts the description text for recurring transactions if needed.  <br /></td></tr>
+<tr class="separator:aa1e8143de8b0cb0d51936f262096b953"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0dd1b6f47ffd6be70f05b87a82fc601" id="r_ae0dd1b6f47ffd6be70f05b87a82fc601"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae0dd1b6f47ffd6be70f05b87a82fc601">GetPeriodicity</a> (int index)</td></tr>
+<tr class="memdesc:ae0dd1b6f47ffd6be70f05b87a82fc601"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the periodicity string based on the selected index.  <br /></td></tr>
+<tr class="separator:ae0dd1b6f47ffd6be70f05b87a82fc601"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab80a5dea8c345748f3dc866890b5c508" id="r_ab80a5dea8c345748f3dc866890b5c508"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab80a5dea8c345748f3dc866890b5c508">RecordTransaction</a> ()</td></tr>
+<tr class="memdesc:ab80a5dea8c345748f3dc866890b5c508"><td class="mdescLeft">&#160;</td><td class="mdescRight">Records the transaction using data from the form inputs.  <br /></td></tr>
+<tr class="separator:ab80a5dea8c345748f3dc866890b5c508"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:aef2e32fed08df8e60b11977a7f0dfef2" id="r_aef2e32fed08df8e60b11977a7f0dfef2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_database_manager.html">DatabaseManager</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aef2e32fed08df8e60b11977a7f0dfef2">databaseManager</a></td></tr>
+<tr class="memdesc:aef2e32fed08df8e60b11977a7f0dfef2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reference to the <a class="el" href="class_database_manager.html" title="Manages the SQLite database used for storing transactions and recurring trades.">DatabaseManager</a> used for performing database operations.  <br /></td></tr>
+<tr class="separator:aef2e32fed08df8e60b11977a7f0dfef2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73cd57e1760d49c1fcfd45f9de529f7d" id="r_a73cd57e1760d49c1fcfd45f9de529f7d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_category_list_manager.html">CategoryListManager</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a73cd57e1760d49c1fcfd45f9de529f7d">categoryListManager</a></td></tr>
+<tr class="memdesc:a73cd57e1760d49c1fcfd45f9de529f7d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reference to the <a class="el" href="class_category_list_manager.html" title="Manages the list of categories by loading, saving, adding, removing, and updating categories,...">CategoryListManager</a> that handles loading and providing category data.  <br /></td></tr>
+<tr class="separator:a73cd57e1760d49c1fcfd45f9de529f7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc90cfa8faafca2d4d2c7b328b1a1afa" id="r_adc90cfa8faafca2d4d2c7b328b1a1afa"><td class="memItemLeft" align="right" valign="top">TMP_Dropdown&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adc90cfa8faafca2d4d2c7b328b1a1afa">categoryDropdown</a></td></tr>
+<tr class="memdesc:adc90cfa8faafca2d4d2c7b328b1a1afa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dropdown component for selecting a transaction category.  <br /></td></tr>
+<tr class="separator:adc90cfa8faafca2d4d2c7b328b1a1afa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abaabb78da81c518d1d12488b660adf78" id="r_abaabb78da81c518d1d12488b660adf78"><td class="memItemLeft" align="right" valign="top">TMP_Dropdown&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abaabb78da81c518d1d12488b660adf78">periodicityDropdown</a></td></tr>
+<tr class="memdesc:abaabb78da81c518d1d12488b660adf78"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dropdown component for selecting the periodicity of a recurring transaction.  <br /></td></tr>
+<tr class="separator:abaabb78da81c518d1d12488b660adf78"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b9332117ae1444501bf9975f181f11d" id="r_a2b9332117ae1444501bf9975f181f11d"><td class="memItemLeft" align="right" valign="top">Toggle&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2b9332117ae1444501bf9975f181f11d">expenseToggle</a></td></tr>
+<tr class="memdesc:a2b9332117ae1444501bf9975f181f11d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Toggle to indicate if the transaction is an expense.  <br /></td></tr>
+<tr class="separator:a2b9332117ae1444501bf9975f181f11d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a907e673954060ecf4a9ce4a06f49e9bf" id="r_a907e673954060ecf4a9ce4a06f49e9bf"><td class="memItemLeft" align="right" valign="top">Toggle&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a907e673954060ecf4a9ce4a06f49e9bf">incomeToggle</a></td></tr>
+<tr class="memdesc:a907e673954060ecf4a9ce4a06f49e9bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Toggle to indicate if the transaction is an income.  <br /></td></tr>
+<tr class="separator:a907e673954060ecf4a9ce4a06f49e9bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3bbab0da3470fabbba361a86bc844ade" id="r_a3bbab0da3470fabbba361a86bc844ade"><td class="memItemLeft" align="right" valign="top">TMP_InputField&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a3bbab0da3470fabbba361a86bc844ade">amountText</a></td></tr>
+<tr class="memdesc:a3bbab0da3470fabbba361a86bc844ade"><td class="mdescLeft">&#160;</td><td class="mdescRight">Input field for entering the transaction amount.  <br /></td></tr>
+<tr class="separator:a3bbab0da3470fabbba361a86bc844ade"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07e0c445e6a7197bc758b0ee21a6f7f1" id="r_a07e0c445e6a7197bc758b0ee21a6f7f1"><td class="memItemLeft" align="right" valign="top">TMP_InputField&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a07e0c445e6a7197bc758b0ee21a6f7f1">describeText</a></td></tr>
+<tr class="memdesc:a07e0c445e6a7197bc758b0ee21a6f7f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Input field for entering the transaction description.  <br /></td></tr>
+<tr class="separator:a07e0c445e6a7197bc758b0ee21a6f7f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37e32a3198dca4996ed3c4a003498ccf" id="r_a37e32a3198dca4996ed3c4a003498ccf"><td class="memItemLeft" align="right" valign="top">TextMeshProUGUI&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a37e32a3198dca4996ed3c4a003498ccf">dateText</a></td></tr>
+<tr class="memdesc:a37e32a3198dca4996ed3c4a003498ccf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Text element displaying the transaction date.  <br /></td></tr>
+<tr class="separator:a37e32a3198dca4996ed3c4a003498ccf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e1c9fa957dee508122221f81ded5b7b" id="r_a1e1c9fa957dee508122221f81ded5b7b"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1e1c9fa957dee508122221f81ded5b7b">tradingListPanel</a></td></tr>
+<tr class="memdesc:a1e1c9fa957dee508122221f81ded5b7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Panel that displays the list of recorded transactions.  <br /></td></tr>
+<tr class="separator:a1e1c9fa957dee508122221f81ded5b7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:aae0e958429a9d0f60c73acf031e99193" id="r_aae0e958429a9d0f60c73acf031e99193"><td class="memItemLeft" align="right" valign="top">static readonly CultureInfo&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aae0e958429a9d0f60c73acf031e99193">FrenchCulture</a> = new CultureInfo(&quot;fr-FR&quot;)</td></tr>
+<tr class="memdesc:aae0e958429a9d0f60c73acf031e99193"><td class="mdescLeft">&#160;</td><td class="mdescRight">The CultureInfo instance for French culture, used for date formatting.  <br /></td></tr>
+<tr class="separator:aae0e958429a9d0f60c73acf031e99193"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Manages the trading form for recording new transactions, including recurring transactions. </p>
-
-<p class="definition">Definition at line <a class="el" href="_trading_manager_8cs_source.html#l00011">11</a> of file <a class="el" href="_trading_manager_8cs_source.html">TradingManager.cs</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="afea5041522e95c838d3578065cefff59" name="afea5041522e95c838d3578065cefff59"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afea5041522e95c838d3578065cefff59">&#9670;&#160;</a></span>CancelButton()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void TradingManager.CancelButton </td>
@@ -151,20 +195,99 @@ Public Member Functions</h2></td></tr>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Cancels the current operation and resets the form to its default state. </p>
 
-<p class="definition">Definition at line <a class="el" href="_trading_manager_8cs_source.html#l00240">240</a> of file <a class="el" href="_trading_manager_8cs_source.html">TradingManager.cs</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  241</span>    {</div>
-<div class="line"><span class="lineno">  242</span>        ResetPanel();</div>
-<div class="line"><span class="lineno">  243</span>    }</div>
-</div><!-- fragment -->
+</div>
+</div>
+<a id="aa1e8143de8b0cb0d51936f262096b953" name="aa1e8143de8b0cb0d51936f262096b953"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1e8143de8b0cb0d51936f262096b953">&#9670;&#160;</a></span>FormIsFull()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool TradingManager.FormIsFull </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Checks whether the trading form is completely filled. Also adjusts the description text for recurring transactions if needed. </p>
+<dl class="section return"><dt>Returns</dt><dd><code>true</code> if the form is fully filled; otherwise, <code>false</code>.</dd></dl>
+
+</div>
+</div>
+<a id="ae0dd1b6f47ffd6be70f05b87a82fc601" name="ae0dd1b6f47ffd6be70f05b87a82fc601"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0dd1b6f47ffd6be70f05b87a82fc601">&#9670;&#160;</a></span>GetPeriodicity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string TradingManager.GetPeriodicity </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>index</em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the periodicity string based on the selected index. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">index</td><td>The index from the periodicity dropdown.</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>A string representing the periodicity ("Day", "Week", "Month", or "Year").</dd></dl>
+
+</div>
+</div>
+<a id="ac5a83fcc5d47d4eeb88d432972ad46c1" name="ac5a83fcc5d47d4eeb88d432972ad46c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac5a83fcc5d47d4eeb88d432972ad46c1">&#9670;&#160;</a></span>InitCategoryList()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TradingManager.InitCategoryList </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Initializes the category dropdown list by loading available categories. </p>
+
 </div>
 </div>
 <a id="a567c374e71906cfdef78f8c834d48c2b" name="a567c374e71906cfdef78f8c834d48c2b"></a>
@@ -172,9 +295,6 @@ Public Member Functions</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void TradingManager.NextButton </td>
@@ -183,26 +303,14 @@ Public Member Functions</h2></td></tr>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Advances to the trading list panel by resetting the form, activating the list panel, and deactivating the current panel. </p>
 
-<p class="definition">Definition at line <a class="el" href="_trading_manager_8cs_source.html#l00260">260</a> of file <a class="el" href="_trading_manager_8cs_source.html">TradingManager.cs</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  261</span>    {</div>
-<div class="line"><span class="lineno">  262</span>        ResetPanel();</div>
-<div class="line"><span class="lineno">  263</span>        tradingListPanel.SetActive(<span class="keyword">true</span>);</div>
-<div class="line"><span class="lineno">  264</span>        gameObject.SetActive(<span class="keyword">false</span>);</div>
-<div class="line"><span class="lineno">  265</span>    }</div>
-</div><!-- fragment -->
 </div>
 </div>
-<a id="a4af43ff2f7059f57b5459af210dd7d50" name="a4af43ff2f7059f57b5459af210dd7d50"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4af43ff2f7059f57b5459af210dd7d50">&#9670;&#160;</a></span>ValidateButton()</h2>
+<a id="a11715a51a9d9afcbf5de9a33f85a5b27" name="a11715a51a9d9afcbf5de9a33f85a5b27"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a11715a51a9d9afcbf5de9a33f85a5b27">&#9670;&#160;</a></span>OnDisable()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -211,7 +319,7 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void TradingManager.ValidateButton </td>
+          <td class="memname">void TradingManager.OnDisable </td>
           <td>(</td>
           <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
           <td></td>
@@ -219,35 +327,385 @@ Public Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
+<p>Called when the object becomes disabled or inactive. Resets the trading form panel. </p>
+
+</div>
+</div>
+<a id="a7e2eddb35d3d697b51b9b2b1efe75c56" name="a7e2eddb35d3d697b51b9b2b1efe75c56"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e2eddb35d3d697b51b9b2b1efe75c56">&#9670;&#160;</a></span>OnEnable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TradingManager.OnEnable </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Called when the object becomes enabled and active. Resets the trading form panel. </p>
+
+</div>
+</div>
+<a id="ab80a5dea8c345748f3dc866890b5c508" name="ab80a5dea8c345748f3dc866890b5c508"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab80a5dea8c345748f3dc866890b5c508">&#9670;&#160;</a></span>RecordTransaction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TradingManager.RecordTransaction </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Records the transaction using data from the form inputs. </p>
+
+</div>
+</div>
+<a id="a4f07b516a90f98194274a9e1c80a9501" name="a4f07b516a90f98194274a9e1c80a9501"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4f07b516a90f98194274a9e1c80a9501">&#9670;&#160;</a></span>ResetPanel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TradingManager.ResetPanel </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Resets the trading form panel to its default state. </p>
+
+</div>
+</div>
+<a id="a4af43ff2f7059f57b5459af210dd7d50" name="a4af43ff2f7059f57b5459af210dd7d50"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4af43ff2f7059f57b5459af210dd7d50">&#9670;&#160;</a></span>ValidateButton()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TradingManager.ValidateButton </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
 <p>Validates the form; if complete, records the transaction and resets the form. </p>
 
-<p class="definition">Definition at line <a class="el" href="_trading_manager_8cs_source.html#l00248">248</a> of file <a class="el" href="_trading_manager_8cs_source.html">TradingManager.cs</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  249</span>    {</div>
-<div class="line"><span class="lineno">  250</span>        <span class="keywordflow">if</span> (FormIsFull())</div>
-<div class="line"><span class="lineno">  251</span>        {</div>
-<div class="line"><span class="lineno">  252</span>            RecordTransaction();</div>
-<div class="line"><span class="lineno">  253</span>            ResetPanel();</div>
-<div class="line"><span class="lineno">  254</span>        }</div>
-<div class="line"><span class="lineno">  255</span>    }</div>
-</div><!-- fragment -->
 </div>
 </div>
-<hr/>The documentation for this class was generated from the following file:<ul>
-<li>C:/Users/Thomas/Videos/Projets_Unity/BudgetApp/Assets/Scripts/Trades/<a class="el" href="_trading_manager_8cs_source.html">TradingManager.cs</a></li>
-</ul>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a3bbab0da3470fabbba361a86bc844ade" name="a3bbab0da3470fabbba361a86bc844ade"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3bbab0da3470fabbba361a86bc844ade">&#9670;&#160;</a></span>amountText</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">TMP_InputField TradingManager.amountText</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Input field for entering the transaction amount. </p>
+
+</div>
+</div>
+<a id="adc90cfa8faafca2d4d2c7b328b1a1afa" name="adc90cfa8faafca2d4d2c7b328b1a1afa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc90cfa8faafca2d4d2c7b328b1a1afa">&#9670;&#160;</a></span>categoryDropdown</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">TMP_Dropdown TradingManager.categoryDropdown</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Dropdown component for selecting a transaction category. </p>
+
+</div>
+</div>
+<a id="a73cd57e1760d49c1fcfd45f9de529f7d" name="a73cd57e1760d49c1fcfd45f9de529f7d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73cd57e1760d49c1fcfd45f9de529f7d">&#9670;&#160;</a></span>categoryListManager</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_category_list_manager.html">CategoryListManager</a> TradingManager.categoryListManager</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reference to the <a class="el" href="class_category_list_manager.html" title="Manages the list of categories by loading, saving, adding, removing, and updating categories,...">CategoryListManager</a> that handles loading and providing category data. </p>
+
+</div>
+</div>
+<a id="aef2e32fed08df8e60b11977a7f0dfef2" name="aef2e32fed08df8e60b11977a7f0dfef2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef2e32fed08df8e60b11977a7f0dfef2">&#9670;&#160;</a></span>databaseManager</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_database_manager.html">DatabaseManager</a> TradingManager.databaseManager</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reference to the <a class="el" href="class_database_manager.html" title="Manages the SQLite database used for storing transactions and recurring trades.">DatabaseManager</a> used for performing database operations. </p>
+
+</div>
+</div>
+<a id="a37e32a3198dca4996ed3c4a003498ccf" name="a37e32a3198dca4996ed3c4a003498ccf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a37e32a3198dca4996ed3c4a003498ccf">&#9670;&#160;</a></span>dateText</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">TextMeshProUGUI TradingManager.dateText</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Text element displaying the transaction date. </p>
+
+</div>
+</div>
+<a id="a07e0c445e6a7197bc758b0ee21a6f7f1" name="a07e0c445e6a7197bc758b0ee21a6f7f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a07e0c445e6a7197bc758b0ee21a6f7f1">&#9670;&#160;</a></span>describeText</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">TMP_InputField TradingManager.describeText</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Input field for entering the transaction description. </p>
+
+</div>
+</div>
+<a id="a2b9332117ae1444501bf9975f181f11d" name="a2b9332117ae1444501bf9975f181f11d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b9332117ae1444501bf9975f181f11d">&#9670;&#160;</a></span>expenseToggle</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Toggle TradingManager.expenseToggle</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Toggle to indicate if the transaction is an expense. </p>
+
+</div>
+</div>
+<a id="aae0e958429a9d0f60c73acf031e99193" name="aae0e958429a9d0f60c73acf031e99193"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae0e958429a9d0f60c73acf031e99193">&#9670;&#160;</a></span>FrenchCulture</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly CultureInfo TradingManager.FrenchCulture = new CultureInfo(&quot;fr-FR&quot;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel static">static</span><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The CultureInfo instance for French culture, used for date formatting. </p>
+
+</div>
+</div>
+<a id="a907e673954060ecf4a9ce4a06f49e9bf" name="a907e673954060ecf4a9ce4a06f49e9bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a907e673954060ecf4a9ce4a06f49e9bf">&#9670;&#160;</a></span>incomeToggle</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Toggle TradingManager.incomeToggle</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Toggle to indicate if the transaction is an income. </p>
+
+</div>
+</div>
+<a id="abaabb78da81c518d1d12488b660adf78" name="abaabb78da81c518d1d12488b660adf78"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abaabb78da81c518d1d12488b660adf78">&#9670;&#160;</a></span>periodicityDropdown</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">TMP_Dropdown TradingManager.periodicityDropdown</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Dropdown component for selecting the periodicity of a recurring transaction. </p>
+
+</div>
+</div>
+<a id="a1e1c9fa957dee508122221f81ded5b7b" name="a1e1c9fa957dee508122221f81ded5b7b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e1c9fa957dee508122221f81ded5b7b">&#9670;&#160;</a></span>tradingListPanel</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject TradingManager.tradingListPanel</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel private">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Panel that displays the list of recorded transactions. </p>
+
+</div>
+</div>
 </div><!-- contents -->
-</div><!-- doc-content -->
 <!-- start footer part -->
-<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
-  <ul>
-    <li class="navelem"><a class="el" href="class_trading_manager.html">TradingManager</a></li>
-    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
-  </ul>
-</div>
+<hr class="footer"/><address class="footer"><small>
+Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2
+</small></address>
+</div><!-- doc-content -->
 </body>
 </html>

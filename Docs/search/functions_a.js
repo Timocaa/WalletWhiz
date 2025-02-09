@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['recordnewcategory_0',['RecordNewCategory',['../class_category_manager.html#aca5af816c74ba4316e1da68bb6ac021a',1,'CategoryManager']]],
-  ['removecategory_1',['RemoveCategory',['../class_category_list_manager.html#a95191e2ac063572d094caa1e6f76feec',1,'CategoryListManager.RemoveCategory()'],['../class_category_manager.html#ad8861a51b22fcb28fce001a407953b78',1,'CategoryManager.RemoveCategory()']]],
-  ['resetpanel_2',['ResetPanel',['../class_change_category_manager.html#a495a0d58398a7590a8fc1d8af2b17585',1,'ChangeCategoryManager.ResetPanel()'],['../class_graph_display_manager.html#a77af2dc324de59cbe78926dc7ec78a26',1,'GraphDisplayManager.ResetPanel()']]]
+  ['ondisable_0',['OnDisable',['../class_category_manager.html#ad767db71eea07726757243aa0df13b69',1,'CategoryManager.OnDisable()'],['../class_graph_display_manager.html#a91196f31c28c4daed595e370ee311678',1,'GraphDisplayManager.OnDisable()'],['../class_stats_manager.html#af506b5e943d1b28fd4bed0a09a66fc08',1,'StatsManager.OnDisable()'],['../class_trading_list_manager.html#a0f128d835853812fa20a9eb606ad6269',1,'TradingListManager.OnDisable()'],['../class_trading_manager.html#a11715a51a9d9afcbf5de9a33f85a5b27',1,'TradingManager.OnDisable()']]],
+  ['onenable_1',['OnEnable',['../class_category_manager.html#a0a0ebef4dc5046c066ce458db083e250',1,'CategoryManager.OnEnable()'],['../class_home_manager.html#a983c50a60b11e45ae5c33bd3029cd1e4',1,'HomeManager.OnEnable()'],['../class_graph_display_manager.html#a23b1e0fc988e3acec68e329285426f6e',1,'GraphDisplayManager.OnEnable()'],['../class_stats_manager.html#a418b9d0686f92396e7cdf2245b380515',1,'StatsManager.OnEnable()'],['../class_trading_list_manager.html#a0e2fe90c2b9eb73fbf3e9882d7453d04',1,'TradingListManager.OnEnable()'],['../class_trading_manager.html#a7e2eddb35d3d697b51b9b2b1efe75c56',1,'TradingManager.OnEnable()']]],
+  ['openchangecategorypanel_2',['OpenChangeCategoryPanel',['../class_category_line_manager.html#aea29b631f39470fe9dc41c253152f99e',1,'CategoryLineManager']]],
+  ['openselectedpanel_3',['OpenSelectedPanel',['../class_general_panel_manager.html#a6a943a08016b287d877be89d9dc9eb89',1,'GeneralPanelManager']]]
 ];

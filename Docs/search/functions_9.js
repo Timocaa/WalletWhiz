@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['previousbutton_0',['PreviousButton',['../class_trading_list_manager.html#a0fbd4d99219a7da8f68a2175b4c9a39b',1,'TradingListManager']]]
+  ['nextbutton_0',['NextButton',['../class_trading_manager.html#a567c374e71906cfdef78f8c834d48c2b',1,'TradingManager']]]
 ];

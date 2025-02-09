@@ -1,14 +1,8 @@
 var searchData=
 [
-  ['savecategories_0',['SaveCategories',['../class_category_list_manager.html#a906982add685f78f11938aa9effb906f',1,'CategoryListManager']]],
-  ['setamounttext_1',['SetAmountText',['../class_trading_line_manager.html#a7ca123cdd7f1fe94981b11b1c9d8c956',1,'TradingLineManager']]],
-  ['setcategory_2',['SetCategory',['../class_category_line_manager.html#a7a9d24e2985a5789a2a6121af4937615',1,'CategoryLineManager.SetCategory()'],['../class_change_category_manager.html#a99bd2e4dca777f599c35183976ef5ef8',1,'ChangeCategoryManager.SetCategory()']]],
-  ['setcolorandcategoryname_3',['SetColorAndCategoryName',['../class_legend_line_manager.html#a41d32657de50ca48ea6a33c1bd39ea2d',1,'LegendLineManager']]],
-  ['setdatetext_4',['SetDateText',['../class_trading_line_manager.html#a077ba29dd2ed7ff913629242d64d6dfe',1,'TradingLineManager']]],
-  ['setdescribetext_5',['SetDescribeText',['../class_trading_line_manager.html#ad270c14a8962cf7962c5eb0781227245',1,'TradingLineManager']]],
-  ['setperiodicitytext_6',['SetPeriodicityText',['../class_trading_line_manager.html#ae76c00d63dae984c0b92eaf957226854',1,'TradingLineManager']]],
-  ['statsmanager_7',['StatsManager',['../class_stats_manager.html',1,'']]],
-  ['statsmanager_2ecs_8',['StatsManager.cs',['../_stats_manager_8cs.html',1,'']]],
-  ['stoptrade_9',['StopTrade',['../class_database_manager.html#aa5abd7863f6ebb6bd7709098f82f7383',1,'DatabaseManager']]],
-  ['stoptransaction_10',['StopTransaction',['../class_trading_line_manager.html#a1c01845471b6e4da1061f1adcf88fea5',1,'TradingLineManager']]]
+  ['ondisable_0',['OnDisable',['../class_category_manager.html#ad767db71eea07726757243aa0df13b69',1,'CategoryManager.OnDisable()'],['../class_graph_display_manager.html#a91196f31c28c4daed595e370ee311678',1,'GraphDisplayManager.OnDisable()'],['../class_stats_manager.html#af506b5e943d1b28fd4bed0a09a66fc08',1,'StatsManager.OnDisable()'],['../class_trading_list_manager.html#a0f128d835853812fa20a9eb606ad6269',1,'TradingListManager.OnDisable()'],['../class_trading_manager.html#a11715a51a9d9afcbf5de9a33f85a5b27',1,'TradingManager.OnDisable()']]],
+  ['onecategorycolors_1',['oneCategoryColors',['../class_graph_display_manager.html#a547f054f8342bd12f8876f25deca163d',1,'GraphDisplayManager']]],
+  ['onenable_2',['OnEnable',['../class_category_manager.html#a0a0ebef4dc5046c066ce458db083e250',1,'CategoryManager.OnEnable()'],['../class_home_manager.html#a983c50a60b11e45ae5c33bd3029cd1e4',1,'HomeManager.OnEnable()'],['../class_graph_display_manager.html#a23b1e0fc988e3acec68e329285426f6e',1,'GraphDisplayManager.OnEnable()'],['../class_stats_manager.html#a418b9d0686f92396e7cdf2245b380515',1,'StatsManager.OnEnable()'],['../class_trading_list_manager.html#a0e2fe90c2b9eb73fbf3e9882d7453d04',1,'TradingListManager.OnEnable()'],['../class_trading_manager.html#a7e2eddb35d3d697b51b9b2b1efe75c56',1,'TradingManager.OnEnable()']]],
+  ['openchangecategorypanel_3',['OpenChangeCategoryPanel',['../class_category_line_manager.html#aea29b631f39470fe9dc41c253152f99e',1,'CategoryLineManager']]],
+  ['openselectedpanel_4',['OpenSelectedPanel',['../class_general_panel_manager.html#a6a943a08016b287d877be89d9dc9eb89',1,'GeneralPanelManager']]]
 ];

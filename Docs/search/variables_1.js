@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['categories_0',['Categories',['../class_category_list_manager.html#a9a5b8bcc31e5040cf397fedb314beacc',1,'CategoryListManager']]],
-  ['categories_1',['categories',['../class_category_data.html#ad63056599d65f7661d7692cd8422af7f',1,'CategoryData']]],
-  ['category_2',['category',['../class_transaction.html#a74ae784df88d73e55b069fbb4db71f35',1,'Transaction']]]
+  ['amount_0',['amount',['../class_transaction.html#af5d734d77654954b2640e4cd28eb0f71',1,'Transaction']]],
+  ['amounttext_1',['amountText',['../class_home_manager.html#ac576c06bb477adf6f0ce9b3ca1999890',1,'HomeManager.amountText'],['../class_trading_line_manager.html#af842d36421b71d49ca03e29bfaded77f',1,'TradingLineManager.amountText'],['../class_trading_manager.html#a3bbab0da3470fabbba361a86bc844ade',1,'TradingManager.amountText']]]
 ];
