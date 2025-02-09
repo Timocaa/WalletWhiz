@@ -6,6 +6,8 @@ WalletWhiz is an Android mobile application for budget management, developed usi
 
 ## Key Features
 
+![WalletWhiz Features](Capture.png)
+
 WalletWhiz stands out with its intuitive interface and comprehensive features for efficient budget management. Here are the app's main capabilities:
 
 - **Track Current Balance and Forecasts**: Displays your current balance in real-time and provides an end-of-month forecast.
@@ -13,6 +15,8 @@ WalletWhiz stands out with its intuitive interface and comprehensive features fo
 - **Transaction Management**: Displays a list of recorded transactions, including details such as amounts, recurrence dates, and associated categories.
 - **Customizable Categories**: Create, modify, or delete categories to tailor the app to your needs.
 - **Reports and Statistics**: Provides charts and summaries to analyze your expenses and income by period and category.
+
+**Note**: The application is currently available only in French.
 
 ---
 
@@ -86,7 +90,7 @@ WalletWhiz is distributed under the [MIT License](LICENSE). You are free to use,
 
 ## Support and Contact
 
-For questions or assistance, please open an issue on GitHub or contact the development team at the following email address: timoca2@hotmail.com.
+For questions or assistance, please open an issue on GitHub or contact the development team at the following email address: support@walletwhiz.com.
 
 ---
 
@@ -95,5 +99,4 @@ For questions or assistance, please open an issue on GitHub or contact the devel
 A big thank you to all contributors and users of WalletWhiz. Your support is essential to the success of this project.
 
 Inspired by the passion and dedication of a former student of the 42 school in Angoulême, WalletWhiz is designed to be a useful and scalable solution for budget management.
-
 
