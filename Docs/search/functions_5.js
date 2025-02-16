@@ -11,7 +11,8 @@ var searchData=
   ['getonecategorytrades_8',['GetOneCategoryTrades',['../class_graph_display_manager.html#a4d26d7872c0050a1f4ed80177d9e1e22',1,'GraphDisplayManager']]],
   ['getperiodicity_9',['GetPeriodicity',['../class_trading_manager.html#ae0dd1b6f47ffd6be70f05b87a82fc601',1,'TradingManager']]],
   ['getrehearsalstrades_10',['GetRehearsalsTrades',['../class_database_manager.html#a79310342c67f324dd3e74134abd732cd',1,'DatabaseManager']]],
-  ['gettradeswithprovisional_11',['GetTradesWithProvisional',['../class_stats_manager.html#ac666dc4db6944804c6e731afff41fde8',1,'StatsManager']]],
-  ['gettransactions_12',['GetTransactions',['../class_database_manager.html#adc680104fb05a5639a80429e7df0e8d6',1,'DatabaseManager']]],
-  ['gettransactionsdatetodate_13',['GetTransactionsDateToDate',['../class_stats_manager.html#a30aded4de6ea87f8fd9f67e4162e81df',1,'StatsManager']]]
+  ['gettotalamount_11',['GetTotalAmount',['../class_stats_manager.html#a4b94b3d6428ec24377cdd8fa70a16c69',1,'StatsManager']]],
+  ['gettradeswithprovisional_12',['GetTradesWithProvisional',['../class_stats_manager.html#ac666dc4db6944804c6e731afff41fde8',1,'StatsManager']]],
+  ['gettransactions_13',['GetTransactions',['../class_database_manager.html#adc680104fb05a5639a80429e7df0e8d6',1,'DatabaseManager']]],
+  ['gettransactionsdatetodate_14',['GetTransactionsDateToDate',['../class_stats_manager.html#a30aded4de6ea87f8fd9f67e4162e81df',1,'StatsManager']]]
 ];

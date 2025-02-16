@@ -316,7 +316,31 @@ public class StatsManager : MonoBehaviour
         // Update the expense, income, and balance amounts.
         expenseAmountText.text = graphDisplayManager.GetExpenseAmount().ToString("F2");
         incomeAmountText.text = graphDisplayManager.GetIncomeAmount().ToString("F2");
-        balanceAmountText.text = (graphDisplayManager.GetIncomeAmount() - graphDisplayManager.GetExpenseAmount()).ToString("F2");
+        balanceAmountText.text = GetTotalAmount(endDateText.text).ToString("F2");
+    }
+
+    /// <summary>
+    /// Calculates the total amount for the periodicity.
+    /// </summary>
+    /// <param name="endDate">The latest date.</param>
+    /// <returns>An Amount between the specified dates.</returns>
+    private float GetTotalAmount(string endDate)
+    {
+        DateTime.TryParseExact(endDate, DateFormats, FrenchCulture, DateTimeStyles.None, out DateTime endDateFormated);
+        List<Transaction> transactions = GetTradesWithProvisional(endDateFormated);
+        float totalAmount = 0f;
+        foreach (var transaction in transactions)
+        {
+            DateTime.TryParseExact(transaction.date, DateFormats, FrenchCulture, DateTimeStyles.None, out DateTime dateFormated);
+            if (dateFormated <= endDateFormated)
+            {
+                if (transaction.type.Equals("expense"))
+                    totalAmount -= transaction.amount;
+                else
+                    totalAmount += transaction.amount;
+            }
+        }
+        return totalAmount;
     }
 
     /// <summary>

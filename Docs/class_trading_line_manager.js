@@ -1,0 +1,26 @@
+var class_trading_line_manager =
+[
+    [ "Awake", "class_trading_line_manager.html#a8898b64000ba13f797058532f39f8c98", null ],
+    [ "FillAmountText", "class_trading_line_manager.html#a5425a07959307cf0e90ebcded6d236ab", null ],
+    [ "FillDateText", "class_trading_line_manager.html#ab373077bd1087dbb9336472f7f9a5319", null ],
+    [ "FrenchTranslatedText", "class_trading_line_manager.html#a1e3de9dcda0b3bae1082bd7332b0cb8b", null ],
+    [ "GetNextDate", "class_trading_line_manager.html#a34122e06172196bf1903b94d26056c84", null ],
+    [ "SetAmountText", "class_trading_line_manager.html#a7ca123cdd7f1fe94981b11b1c9d8c956", null ],
+    [ "SetDateText", "class_trading_line_manager.html#a077ba29dd2ed7ff913629242d64d6dfe", null ],
+    [ "SetDescribeText", "class_trading_line_manager.html#ad270c14a8962cf7962c5eb0781227245", null ],
+    [ "SetPeriodicityText", "class_trading_line_manager.html#ae76c00d63dae984c0b92eaf957226854", null ],
+    [ "StopTransaction", "class_trading_line_manager.html#a1c01845471b6e4da1061f1adcf88fea5", null ],
+    [ "_databaseManager", "class_trading_line_manager.html#a743ea1c3f9a87db3383bcf93c441a58a", null ],
+    [ "_isExpense", "class_trading_line_manager.html#a402b8844d496423fa00542de93c0a463", null ],
+    [ "_periodicity", "class_trading_line_manager.html#a2656e60ff4fb1865e121041c9d3c0e38", null ],
+    [ "_tradingId", "class_trading_line_manager.html#ac285e4d8da408cf587dd083d3c6bb0e7", null ],
+    [ "_tradingListManager", "class_trading_line_manager.html#a21ab06732a7b43d9a3a34f80ed792091", null ],
+    [ "amountText", "class_trading_line_manager.html#af842d36421b71d49ca03e29bfaded77f", null ],
+    [ "DateFormats", "class_trading_line_manager.html#a164e591f3e4eb9f9d3932a195701e24e", null ],
+    [ "dateText", "class_trading_line_manager.html#a7626581224e56dee2a3d16d6f4e7c7ad", null ],
+    [ "describeText", "class_trading_line_manager.html#a13d75a332426e9dbda83ab2c12f1bdd9", null ],
+    [ "FrenchCulture", "class_trading_line_manager.html#a49e5652b09358bf098e1640422635ec6", null ],
+    [ "negativeColor", "class_trading_line_manager.html#aeaff5cfc1e461a599b880ea9007f3d81", null ],
+    [ "periodicityText", "class_trading_line_manager.html#a5b796c0df40ea1688f508788e14e76b8", null ],
+    [ "positiveColor", "class_trading_line_manager.html#a82bf1dfbabcf26ab1eaaeba05a55a6da", null ]
+];

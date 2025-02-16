@@ -5417,7 +5417,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Gestion des transaction
+  m_text: Gestion des transactions
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f687e323c0e97f748bd5d37e76fce3ba, type: 2}
   m_sharedMaterial: {fileID: 4966052126158227726, guid: f687e323c0e97f748bd5d37e76fce3ba, type: 2}

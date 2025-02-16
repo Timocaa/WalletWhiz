@@ -12,8 +12,9 @@ var searchData=
   ['start_9',['Start',['../class_general_panel_manager.html#a5b225f90e2f9839210cb60dd704dbe96',1,'GeneralPanelManager']]],
   ['startdatetext_10',['startDateText',['../class_stats_manager.html#a968a12214dc8c31ddc17c57cabfdfb4f',1,'StatsManager']]],
   ['statsmanager_11',['StatsManager',['../class_stats_manager.html',1,'']]],
-  ['stoprehearsalstrade_12',['StopRehearsalsTrade',['../class_database_manager.html#afa00242a64b6e43f12888dcca64b1565',1,'DatabaseManager']]],
-  ['stoptrade_13',['StopTrade',['../class_database_manager.html#aa5abd7863f6ebb6bd7709098f82f7383',1,'DatabaseManager']]],
-  ['stoptransaction_14',['StopTransaction',['../class_trading_line_manager.html#a1c01845471b6e4da1061f1adcf88fea5',1,'TradingLineManager']]],
-  ['switchpanels_15',['SwitchPanels',['../class_general_panel_manager.html#a48fc385e4888503d1da75c42d2089313',1,'GeneralPanelManager']]]
+  ['statsmanager_2ecs_12',['StatsManager.cs',['../_stats_manager_8cs.html',1,'']]],
+  ['stoprehearsalstrade_13',['StopRehearsalsTrade',['../class_database_manager.html#afa00242a64b6e43f12888dcca64b1565',1,'DatabaseManager']]],
+  ['stoptrade_14',['StopTrade',['../class_database_manager.html#aa5abd7863f6ebb6bd7709098f82f7383',1,'DatabaseManager']]],
+  ['stoptransaction_15',['StopTransaction',['../class_trading_line_manager.html#a1c01845471b6e4da1061f1adcf88fea5',1,'TradingLineManager']]],
+  ['switchpanels_16',['SwitchPanels',['../class_general_panel_manager.html#a48fc385e4888503d1da75c42d2089313',1,'GeneralPanelManager']]]
 ];
